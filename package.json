@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "thumb:generate": "node ./scripts/thumb/generate.js",
+    "thumb:clear": "node ./scripts/thumb/clear.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "glob": "^8.0.3",
+    "sharp": "^0.31.2"
+  }
+}
