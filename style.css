@@ -1,0 +1,156 @@
+.header {
+    text-align: center;
+}
+
+.header, .footer {
+    padding: var(--spacing-triple) 0;
+}
+
+.title {
+    font-size: var(--font-size-big);
+    margin-bottom: var(--spacing-half);
+}
+
+.subtitle {
+    font-size: var(--font-size-medium);
+}
+
+.content {
+    color: var(--color-post-color);
+}
+
+.content > * {
+    padding: var(--spacing-double) 0;
+}
+
+.section:nth-of-type(odd) {
+    background: var(--color-post-background);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: var(--grid-size);
+    max-width: 100%;
+    padding: var(--spacing-default) var(--spacing-double);
+}
+
+.text {
+    line-height: 1.7;
+}
+.text:not(:last-child),
+.section .title,
+.section .subtitle {
+    margin-bottom: var(--spacing-default);
+}
+
+.section .title {
+    font-size: var(--font-size-big);
+}
+
+.section .subtitle {
+    font-size: var(--font-size-medium);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.texts {
+    width: 75%;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: var(--radius-rounded);
+    overflow: hidden;
+    border: 2px solid currentColor;
+    margin: 0 auto;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid var(--colors-post-color);
+}
+
+.footer {
+    text-align: center;
+    font-size: var(--font-size-small);
+}
+
+.scrollable {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: var(--spacing-default);
+    position: relative;
+}
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: var(--spacing-double);
+}
+
+.gallery::before, .gallery::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: var(pp);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.gallery::before {
+    left: 0;
+    box-shadow: 0 0 15px 3px var(--base-shadow);
+}
+
+.gallery::after {
+    right: 0;
+    box-shadow: 0 0 15px 3px var(--base-shadow);
+}
+
+.photo {
+    min-width: 280px;
+}
+
+.photo a {
+    cursor: zoom-in;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.photo figure,
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo.ratio-2-3 img {
+    aspect-ratio: 2 / 3;
+}
+
+.photo.ratio-1-1 img {
+    aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .avatar {
+        margin-top: var(--spacing-triple);
+    }
+
+    .texts {
+        width: initial;
+    }
+}
