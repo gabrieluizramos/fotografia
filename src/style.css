@@ -89,6 +89,12 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-half);
+    list-style: none;
+}
+
+.expander::marker,
+.expander::-webkit-details-marker {
+    display: none
 }
 
 .expander::before {
