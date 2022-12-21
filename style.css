@@ -84,7 +84,7 @@
     border-bottom: 1px solid currentColor;
     cursor: pointer;
     margin-bottom: var(--spacing-half);
-    padding-bottom: var(--spacing-half);
+    padding: var(--spacing-half) 0;
     user-select: none;
     display: flex;
     align-items: center;
