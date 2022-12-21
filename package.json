@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "thumb:generate": "node ./scripts/thumb/generate.js",
-    "thumb:clear": "node ./scripts/thumb/clear.js",
-    "build:images": "npm run thumb:generate",
-    "build:html": "node ./scripts/pug/build.js",
-    "build": "npm run build:html && npm run build:images",
-    "deploy": "gh-pages -d src -b master"
+    "build:images": "node ./scripts/thumb.js",
+    "build:html": "node ./scripts/pug.js",
+    "build": "node ./scripts/build.js",
+    "deploy": "gh-pages -d src -b master",
+    "start": "node ./scripts/watch.js"
   },
   "keywords": [],
   "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
