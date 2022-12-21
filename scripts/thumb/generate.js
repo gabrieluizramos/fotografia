@@ -16,7 +16,7 @@ const getThumbPath = path => {
     return structure.join('/');
 };
 const findImages = () => glob('src/images/**/*[!.thumb].jpg');
-const processImage = (path, output) => sharp(path).resize({ width: 280 }).webp({ lossless: true }).toFile(output);
+const processImage = (path, output) => sharp(path).resize({ width: 280 }).webp({ effort: 6 }).toFile(output);
 const processImages = async (paths) => {
     for await (path of paths) {
         const output = getThumbPath(path)
