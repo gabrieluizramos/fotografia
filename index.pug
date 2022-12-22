@@ -10,7 +10,7 @@ mixin photos(category)
                 - const href = `${category.path}/photo-${count}.jpg`;
                 - const img = `${category.path}/photo-${count}.thumb.webp`;
                 li.photo(data-ratio=category.ratio)
-                    a(href=href target="_blank")
+                    a.polaroid(href=href target="_blank")
                         figure
                             img(src=img alt=category.title load="lazy")
 
