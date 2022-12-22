@@ -3,7 +3,6 @@ const { promisify } = require('util');
 const sharp = require('sharp');
 let glob = require('glob');
 glob = promisify(glob);
-const fs = require('fs');
 
 const getThumbPath = path => {
     const structure = path.split('/');
@@ -24,7 +23,9 @@ const processImages = async (paths) => {
     }
 };
 
-findImages()
-.then(processImages)
-.then(console.log)
-.catch(console.log);
+module.exports = () => {
+    console.log('THUMB: generating');
+    return findImages()
+    .then(processImages)
+    .then(() => console.log('THUMB: finished'))
+}

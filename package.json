@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "thumb:generate": "node ./scripts/thumb/generate.js",
-    "thumb:clear": "node ./scripts/thumb/clear.js",
-    "build": "npm run thumb:generate",
-    "deploy": "gh-pages -d src -b master"
+    "build:clear": "node ./scripts/clear.js",
+    "build": "node ./scripts/build.js",
+    "deploy": "gh-pages -d src -b master",
+    "start": "node ./scripts/watch.js"
   },
   "keywords": [],
   "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "glob": "^8.0.3",
+    "pug": "^3.0.2",
     "sharp": "^0.31.2"
   }
 }
