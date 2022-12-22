@@ -3,51 +3,63 @@
         {
             "title": "While She Sleeps",
             "path": "images/shows/while-she-sleeps",
-            "count": 6
+            "count": 6,
+            "ratio": "2-3",
+            "open": true
         },
         {
             "title": "Bring Me The Horizon",
             "path": "images/shows/bring-me-the-horizon",
-            "count": 6
+            "count": 6,
+            "ratio": "2-3"
         },
         {
             "title": "Fresno & Scalene",
             "path": "images/shows/fresno-e-scalene",
-            "count": 6
+            "count": 5,
+            "ratio": "1-1"
         },
         {
             "title": "Axty",
             "path": "images/shows/axty",
-            "count": 6
+            "count": 6,
+            "ratio": "2-3"
         }
     ],
     "lifestyle": [
         {
             "title": "Brasil",
             "path": "images/viagens/brasil",
-            "count": 6
+            "count": 6,
+            "ratio": "2-3",
+            "open": true
         },
         {
             "title": "EUA",
             "path": "images/viagens/eua",
-            "count": 4
+            "count": 4,
+            "ratio": "2-3"
         },
         {
-            "title": "Irlanda & Irlaanda do Norte",
+            "title": "Irlanda & Irlanda do Norte",
             "path": "images/viagens/irlanda-e-irlanda-do-norte",
-            "count": 6
+            "count": 6,
+            "ratio": "2-3"
         }
     ],
     "nature": [
         {
             "title": "Animais",
             "path": "images/natureza/animais",
-            "count": 9
+            "count": 9,
+            "ratio": "2-3",
+            "open": true
         },
         {
             "title": "Macro",
             "path": "images/natureza/macro",
-            "count": 7
+            "count": 7,
+            "ratio": "2-3"
         }
     ]
 }

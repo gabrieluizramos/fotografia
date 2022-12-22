@@ -172,11 +172,11 @@
     height: 100%;
 }
 
-.photo.ratio-2-3 img {
+.photo[data-ratio="2-3"] img {
     aspect-ratio: 2 / 3;
 }
 
-.photo.ratio-1-1 img {
+.photo[data-ratio="1-1"] img {
     aspect-ratio: 1 / 1;
 }
 
