@@ -4,7 +4,7 @@ mixin photos(category)
         h4.subtitle #{category.title}
     .gallery
         ul.scrollable 
-            - let count = 1
+            - let count = 0;
             while count < category.count
                 - count++;
                 - const href = `${category.path}/photo-${count}.jpg`;
