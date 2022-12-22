@@ -8,6 +8,6 @@ module.exports = async () => {
         await thumb();
         console.log('BUILD: finished');
     } catch (err) {
-        console.log('Build: Error', err)
+        console.log('Build: Error', err);
     }
 }
