@@ -4,7 +4,8 @@
             "title": "While She Sleeps",
             "path": "images/shows/while-she-sleeps",
             "count": 6,
-            "ratio": "2-3"
+            "ratio": "2-3",
+            "open": true
         },
         {
             "title": "Bring Me The Horizon",
