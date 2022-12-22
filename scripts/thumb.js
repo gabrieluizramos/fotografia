@@ -23,11 +23,9 @@ const processImages = async (paths) => {
     }
 };
 
-
-
 module.exports = () => {
+    console.log('THUMB: generating');
     return findImages()
     .then(processImages)
-    .then(console.log)
-    .catch(console.log);
+    .then(() => console.log('THUMB: finished'))
 }
