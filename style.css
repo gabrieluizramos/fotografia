@@ -82,8 +82,8 @@
 .expander {
     border-bottom: 1px solid currentColor;
     cursor: pointer;
-    margin-bottom: var(--spacing-default);
-    padding: var(--spacing-default) 0;
+    margin-bottom: var(--spacing-half);
+    padding: var(--spacing-half) 0;
     user-select: none;
     display: flex;
     align-items: center;
@@ -147,7 +147,7 @@
 .gallery {
     position: relative;
     overflow: hidden;
-    margin-bottom: var(--spacing-double);
+    margin-bottom: var(--spacing-default);
 }
 
 .gallery::before, .gallery::after {
