@@ -37,11 +37,22 @@ const polaroid = {
                 polaroid.actions.open(href, alt);
             }
         },
+        backdrop(e) {
+            const rect = e.target.getBoundingClientRect();
+            const { top, right, bottom, left } = rect;
+            const clickedOutside = top == 0 || right == 0 || bottom == 0  || left == 0;
+            if (clickedOutside) {
+                polaroid.actions.close();
+            }
+        },
         bind() {
             document.addEventListener('click', polaroid.events.check);
-            polaroid.elements.close.addEventListener('click', polaroid.actions.close);
-            polaroid.elements.img.addEventListener('load', polaroid.actions.loaded);
-            polaroid.elements.modal.addEventListener('close', polaroid.actions.clear);
+            
+            const { modal, img, close } = polaroid.elements;
+            modal.addEventListener('close', polaroid.actions.clear);
+            modal.addEventListener('click', polaroid.events.backdrop);
+            img.addEventListener('load', polaroid.actions.loaded);
+            close.addEventListener('click', polaroid.actions.close);
         }
     },
     start() {
