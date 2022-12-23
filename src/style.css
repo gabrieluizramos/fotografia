@@ -182,13 +182,13 @@
     box-shadow: inset 0 var(--negative-onehalf) var(--spacing-triple) var(--negative-onehalf) var(--color-post-background);
 }
 
-.photo a {
+.photo .clickable {
     cursor: zoom-in;
     display: block;
     width: 100%;
     height: 100%;
 }
-.photo a:hover img {
+.photo .clickable:hover img {
     transform: scale(1.01);
     opacity: 0.85;
 }
@@ -215,6 +215,89 @@
 
 .photo[data-ratio="1-1"] img {
     aspect-ratio: 1 / 1;
+}
+
+.body:has(.modal[open]) {
+    overflow: hidden;
+}
+
+.modal {
+    background: transparent;
+    max-width: initial;
+    max-height: initial;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.modal::backdrop {
+    --blur: 5px;
+    -webkit-filter: blur(var(--blur));
+    -moz-filter: blur(var(--blur));
+    -o-filter: blur(var(--blur));
+    -ms-filter: blur(var(--blur));
+    filter: blur(var(--blur));
+    --webkit-backdrop-filter: blur(var(--blur));
+    backdrop-filter: blur(var(--blur));
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: var(--spacing-double);
+    flex-direction: column;
+}
+
+.modal .figure {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.modal .figure:after {
+    content: attr(data-alt);
+    text-align: center;
+    font-size: var(--font-size-small);
+    display: block;
+    margin-top: var(--spacing-default);
+}
+
+.modal .img {
+    min-width: 200px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.modal .close {
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: var(--spacing-onehalf);
+    width: var(--spacing-onehalf);
+    font-weight: bold;
+    font-size: var(--font-size-medium);
+    color: var(--color-post-background);
+    background: transparent;    
+    border-left: 2px dashed currentColor;
+    border-bottom: 2px dashed currentColor;
+    border-radius: 0 0 0 50%;
 }
 
 @media (max-width: 800px) {
