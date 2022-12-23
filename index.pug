@@ -10,9 +10,9 @@ mixin photos(category)
                 - const href = `${category.path}/photo-${count}.jpg`;
                 - const img = `${category.path}/photo-${count}.thumb.webp`;
                 li.photo(data-ratio=category.ratio)
-                    a(href=href target="_blank")
+                    button.clickable
                         figure
-                            img(src=img alt=category.title load="lazy")
+                            img(src=img data-href=href alt=category.title load="lazy")
 
 mixin accordion(category)
     if category.open
@@ -39,6 +39,7 @@ html(lang="pt-BR")
         link(rel="icon" href="https://gabrieluizramos.com.br/favicon-32x32.png")
         link(rel="stylesheet" href="https://gabrieluizramos.com.br/theme/main.css")
         link(rel="stylesheet" href="./style.css")
+        script !{" "}
         title Fotografia | Gabriel Ramos
 
     body.body
@@ -111,3 +112,12 @@ html(lang="pt-BR")
 
         footer.footer
             a(href="https://gabrieluizramos.com.br/" target="_blank") @gabrieluizramos
+
+
+        dialog.modal#modal
+            .container
+                figure.figure.polaroid(data-alt="Carregando...")
+                    img.img
+                    button.close &times;
+
+        script(src="./script.js")
