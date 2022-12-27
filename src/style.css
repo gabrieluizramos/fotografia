@@ -172,7 +172,6 @@
 
 .photo {
     min-width: 280px;
-    
 }
 
 .polaroid {
@@ -234,6 +233,7 @@
 
 .modal::backdrop {
     --blur: 5px;
+    --margin: calc(var(--blur) * 2 * -1);
     -webkit-filter: blur(var(--blur));
     -moz-filter: blur(var(--blur));
     -o-filter: blur(var(--blur));
@@ -242,6 +242,7 @@
     --webkit-backdrop-filter: blur(var(--blur));
     backdrop-filter: blur(var(--blur));
     background: rgba(0, 0, 0, 0.8);
+    margin: var(--margin);
 }
 
 .modal .container {
