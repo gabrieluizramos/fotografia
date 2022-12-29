@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "fotografia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio fotográfico de @gabrieluizramos",
   "main": "index.html",
   "scripts": {
     "build:clear": "node ./scripts/clear.js",
