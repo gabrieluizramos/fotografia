@@ -302,12 +302,16 @@
 }
 
 @media (max-width: 800px) {
-    .about {
-        flex-direction: column;
+    .greeting {
+        text-align: center;
     }
 
     .avatar {
-        margin-top: var(--spacing-triple);
+        margin-bottom: var(--spacing-default);
+    }
+
+    .about {
+        flex-direction: column-reverse;
     }
 
     .texts {
