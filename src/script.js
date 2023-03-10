@@ -1,3 +1,23 @@
+const loader = {
+    delays: {
+        exit: 1000,
+        remove: 500
+    },
+    element: document.querySelector('[data-loading]'),
+    remove() {
+        loader.element.dataset.loading = false
+        setTimeout(() => loader.element.remove(), loader.delays.remove);
+    },
+    exit() {
+        loader.element.dataset.loading = true
+        setTimeout(loader.remove, loader.delays.exit);
+    },
+    start() {
+        window.addEventListener('load', loader.exit);
+    }
+}
+loader.start();
+
 const polaroid = {
     elements: {
         modal: modal,
