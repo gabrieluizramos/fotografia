@@ -77,5 +77,20 @@
             "count": 7,
             "ratio": "2-3"
         }
+    ],
+    "sports": [
+        {
+            "title": "CrossFit",
+            "path": "images/esportes/crossfit",
+            "count": 8,
+            "ratio": "3-2",
+            "open": true
+        },
+        {
+            "title": "Produtos",
+            "path": "images/esportes/produtos",
+            "count": 14,
+            "ratio": "2-3"
+        }
     ]
 }

@@ -124,6 +124,9 @@
 .section.nature .accordion[open] .expander {
     color: var(--color-terminal-green);
 }
+.section.sports .accordion[open] .expander {
+    color: var(--color-terminal-yellow);
+}
 
 .scrollable {
     display: flex;
