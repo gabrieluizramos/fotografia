@@ -3,6 +3,8 @@ mixin photos(category)
     summary.expander
         h4.subtitle #{category.title}
     .gallery
+        if category.press
+            p.press Matéria: <a href=#{category.press.href} target="_blank">#{category.press.title}</a>
         ul.scrollable 
             - let count = 0;
             while count < category.count
@@ -13,7 +15,6 @@ mixin photos(category)
                     button.clickable
                         figure
                             img(src=img data-href=href alt=category.title load="lazy")
-
 mixin accordion(category)
     if category.open
         details.accordion(open)

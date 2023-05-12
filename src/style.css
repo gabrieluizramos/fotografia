@@ -215,12 +215,21 @@
     opacity: 1;
 }
 
+.photo[data-ratio="3-2"] img {
+    aspect-ratio: 3 / 2;
+}
+
 .photo[data-ratio="2-3"] img {
     aspect-ratio: 2 / 3;
 }
 
 .photo[data-ratio="1-1"] img {
     aspect-ratio: 1 / 1;
+}
+
+.press {
+    padding: var(--spacing-half) 0 var(--spacing-default);
+    font-size: var(--font-size-smaller);
 }
 
 .body:has(.modal[open]) {
