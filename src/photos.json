@@ -1,11 +1,21 @@
 {
     "concert": [
         {
+            "title": "Repetente Records (festa de 1 ano)",
+            "path": "images/shows/repetente-records",
+            "count": "41",
+            "ratio": "3-2",
+            "open": true,
+            "press": {
+                "title": "Repetente Records celebra 1 ano de existência em grande estilo",
+                "href": "https://igormiranda.com.br/2023/06/repetente-records-aniversario-shows-resenha/"
+            }
+        },
+        {
             "title": "C6 Fest",
             "path": "images/shows/c6-fest",
             "count": 33,
             "ratio": "3-2",
-            "open": true,
             "press": {
                 "title": "The War on Drugs encanta no C6 Fest em São Paulo mesmo com setlist enxuto",
                 "href": "https://igormiranda.com.br/2023/05/c6-fest-sao-paulo-21-maio-2023-resenha/"
@@ -34,16 +44,16 @@
             "ratio": "2-3"
         },
         {
-            "title": "Fresno & Scalene",
-            "path": "images/shows/fresno-e-scalene",
-            "count": 5,
-            "ratio": "1-1"
-        },
-        {
             "title": "Axty",
             "path": "images/shows/axty",
             "count": 6,
             "ratio": "2-3"
+        },
+        {
+            "title": "Fresno & Scalene",
+            "path": "images/shows/fresno-e-scalene",
+            "count": 5,
+            "ratio": "1-1"
         }
     ],
     "lifestyle": [
