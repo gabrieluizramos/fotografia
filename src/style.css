@@ -230,9 +230,31 @@
     aspect-ratio: 1 / 1;
 }
 
-.press {
+.details {
     padding: var(--spacing-half) 0 var(--spacing-default);
     font-size: var(--font-size-smaller);
+}
+
+.detail:first-child {
+    margin-right: var(--spacing-half);
+}
+
+.detail:nth-child(2):before {
+    content: '@ ';
+    color: var(--color-red);
+}
+
+.artist {
+    display: inline;
+}
+
+.info {
+    color: var(--color-red);
+}
+
+.artist:not(:first-child, :last-child):after {
+    content: ', ';
+    color: var(--color-post-color);
 }
 
 .body:has(.modal[open]) {
