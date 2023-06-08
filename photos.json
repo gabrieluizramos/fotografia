@@ -1,14 +1,34 @@
 {
     "concert": [
         {
+            "title": "Fear Factory",
+            "path": "images/shows/fear-factory",
+            "count": 41,
+            "ratio": "3-2",
+            "open": true,
+            "details": {
+                "artists": ["Skin Culture", "Korzus", "Fear Factory"],
+                "venue": "Fabrique Clube",
+                "date": "06/06/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "href": "https://igormiranda.com.br/2023/06/fear-factory-show-sao-paulo-2023-resenha/"
+                }
+            }
+        },
+        {
             "title": "Repetente Records (festa de 1 ano)",
             "path": "images/shows/repetente-records",
             "count": "41",
             "ratio": "3-2",
-            "open": true,
-            "press": {
-                "title": "Repetente Records celebra 1 ano de existência em grande estilo",
-                "href": "https://igormiranda.com.br/2023/06/repetente-records-aniversario-shows-resenha/"
+            "details": {
+                "artists": ["Anônimos Anônimos", "Faca Preta", "Fibonattis", "Escombro", "Statues On Fire", "Magüerbes"],
+                "venue": "Fabrique Club",
+                "date": "31/05/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "href": "https://igormiranda.com.br/2023/06/repetente-records-aniversario-shows-resenha/"
+                }
             }
         },
         {
@@ -16,9 +36,14 @@
             "path": "images/shows/c6-fest",
             "count": 33,
             "ratio": "3-2",
-            "press": {
-                "title": "The War on Drugs encanta no C6 Fest em São Paulo mesmo com setlist enxuto",
-                "href": "https://igormiranda.com.br/2023/05/c6-fest-sao-paulo-21-maio-2023-resenha/"
+            "details": {
+                "artists": ["O Ano de 1973", "Tim Bernardes", "Black Country, New Road", "Caetano Veloso", "Weyes Blood", "The War On Drugs", "Samara Joy"],
+                "venue": "Parque Ibirapuera",
+                "date": "21/05/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "href": "https://igormiranda.com.br/2023/05/c6-fest-sao-paulo-21-maio-2023-resenha/"
+                }
             }
         },
         {
@@ -26,28 +51,35 @@
             "path": "images/shows/dado-villa-lobos-e-marcelo-bonfa",
             "ratio": "3-2",
             "count": 17,
-            "press": {
-                "title": "Dado e Bonfá voltam a celebrar a Legião Urbana com turnê “As V Estações” em SP",
-                "href": "https://igormiranda.com.br/2023/05/legiao-urbana-dado-bonfa-show-sao-paulo-2023-resenha/"
+            "details": {
+                "venue": "Espaço Unimed",
+                "date": "06/05/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "href": "https://igormiranda.com.br/2023/05/legiao-urbana-dado-bonfa-show-sao-paulo-2023-resenha/"
+                }
             }
         },
         {
             "title": "Bring Me The Horizon",
             "path": "images/shows/bring-me-the-horizon",
             "count": 6,
-            "ratio": "2-3"
+            "ratio": "2-3",
+            "details": {
+                "venue": "Vibra SP",
+                "date": "16/12/2022"
+            }
         },
         {
-            "title": "While She Sleeps",
+            "title": "While She Sleeps (Vomit3d Party)",
             "path": "images/shows/while-she-sleeps",
-            "count": 6,
-            "ratio": "2-3"
-        },
-        {
-            "title": "Axty",
-            "path": "images/shows/axty",
-            "count": 6,
-            "ratio": "2-3"
+            "count": 12,
+            "ratio": "2-3",
+            "details": {
+                "artists": ["Axty", "While She Sleeps"],
+                "venue": "VIP Station",
+                "date": "26/11/2022"
+            }
         },
         {
             "title": "Fresno & Scalene",

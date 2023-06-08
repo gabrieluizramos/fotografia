@@ -1,11 +1,27 @@
 //- Mixins ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+mixin details(category)
+    if category.details
+        .details
+            if category.details.artists
+                dl.artists
+                    dt.artist.detail Artistas:
+                    each artist in category.details.artists
+                        dd.artist.info #{artist}
+            if category.details.venue && category.details.date
+                p.date-venue
+                    span.detail #{category.details.date}
+                    span.detail #{category.details.venue}
+            if category.details.press
+                p.press
+                    span.detail Matéria:
+                    a(href=category.details.press.href target="_blank") #{category.details.press.vehicle}
+
 mixin photos(category)
     summary.expander
         h4.subtitle #{category.title}
+    +details(category)
     .gallery
-        if category.press
-            p.press Matéria: <a href=#{category.press.href} target="_blank">#{category.press.title}</a>
-        ul.scrollable 
+        ul.scrollable
             - let count = 0;
             while count < category.count
                 - count++;
