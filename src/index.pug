@@ -4,17 +4,18 @@ mixin details(category)
         .details
             if category.details.artists
                 dl.artists
-                    dt.artist.detail Artistas:
+                    dt.artist.detail Artistas: !{" "}
                     each artist in category.details.artists
                         dd.artist.info #{artist}
             if category.details.venue && category.details.date
                 p.date-venue
-                    span.detail #{category.details.date}
-                    span.detail #{category.details.venue}
+                    span.detail #{category.details.date} !{" "}
+                    span.info @
+                    span.detail !{" "} #{category.details.venue}
             if category.details.press
                 p.press
-                    span.detail Matéria:
-                    a(href=category.details.press.href target="_blank") #{category.details.press.vehicle}
+                    span.detail Veículo: !{" "}
+                    a.link(href=category.details.press.href target="_blank") #{category.details.press.vehicle}
 
 mixin photos(category)
     summary.expander
