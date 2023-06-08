@@ -1,11 +1,26 @@
 {
     "concert": [
         {
+            "title": "Fear Factory",
+            "path": "images/shows/fear-factory",
+            "count": 41,
+            "ratio": "3-2",
+            "open": true,
+            "details": {
+                "artists": ["Skin Culture", "Korzus", "Fear Factory"],
+                "venue": "Fabrique Clube",
+                "date": "06/06/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "href": "https://igormiranda.com.br/2023/06/fear-factory-show-sao-paulo-2023-resenha/"
+                }
+            }
+        },
+        {
             "title": "Repetente Records (festa de 1 ano)",
             "path": "images/shows/repetente-records",
             "count": "41",
             "ratio": "3-2",
-            "open": true,
             "details": {
                 "artists": ["Anônimos Anônimos", "Faca Preta", "Fibonattis", "Escombro", "Statues On Fire", "Magüerbes"],
                 "venue": "Fabrique Club",
