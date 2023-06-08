@@ -19,9 +19,8 @@ mixin details(category)
 mixin photos(category)
     summary.expander
         h4.subtitle #{category.title}
+    +details(category)
     .gallery
-        +details(category)
-
         ul.scrollable
             - let count = 0;
             while count < category.count
