@@ -235,15 +235,6 @@
     font-size: var(--font-size-smaller);
 }
 
-.detail:first-child {
-    margin-right: var(--spacing-half);
-}
-
-.detail:nth-child(2):before {
-    content: '@ ';
-    color: var(--color-red);
-}
-
 .artist {
     display: inline;
 }
