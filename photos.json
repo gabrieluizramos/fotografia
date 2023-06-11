@@ -1,11 +1,25 @@
 {
     "concert": [
         {
+            "title": "Peter and the Test Tube Babies",
+            "path": "images/shows/peter-and-the-test-tube-babies",
+            "count": 31,
+            "ratio": "3-2",
+            "open": true,
+            "details": {
+                "artists": ["Dente Canino", "Urutu", "Peter and the Test Tube Babies"],
+                "venue": "Jai Club",
+                "date": "10/06/2023",
+                "press": {
+                    "vehicle": "Sonoridade Underground"
+                }
+            }
+        },
+        {
             "title": "Fear Factory",
             "path": "images/shows/fear-factory",
             "count": 41,
             "ratio": "3-2",
-            "open": true,
             "details": {
                 "artists": ["Skin Culture", "Korzus", "Fear Factory"],
                 "venue": "Fabrique Clube",
