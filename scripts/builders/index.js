@@ -9,5 +9,6 @@ module.exports = async () => {
         console.log('BUILD: finished');
     } catch (err) {
         console.log('Build: Error', err);
+        throw err;
     }
 }
