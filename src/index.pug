@@ -15,7 +15,10 @@ mixin details(category)
             if category.details.press
                 p.press
                     span.detail Veículo: !{" "}
-                    a.link(href=category.details.press.href target="_blank" title=category.details.press.title) #{category.details.press.vehicle}
+                        if category.details.press.title && category.details.press.href
+                            a.link(href=category.details.press.href target="_blank" title=category.details.press.title) #{category.details.press.vehicle}
+                        else
+                            span.info #{category.details.press.vehicle}
 
 mixin photos(category)
     summary.expander
