@@ -6,19 +6,18 @@
   "type": "module",
   "scripts": {
     "start": "node ./scripts/watch.js",
-    "build": "node ./scripts/build.js",
-    "build:pug": "BUILDER=.pug node ./scripts/build.js",
-    "build:thumb": "BUILDER=.jpg node ./scripts/build.js",
+    "build": "TARGET=all node ./scripts/build.js",
+    "build:pug": "TARGET=.pug node ./scripts/build.js",
+    "build:thumb": "TARGET=.jpg node ./scripts/build.js",
     "build:clear": "node ./scripts/clear.js",
     "deploy": "gh-pages -d src -b master"
   },
   "keywords": [],
   "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "glob": "^8.0.3",
+    "glob": "^10.2.7",
     "pug": "^3.0.2",
     "sharp": "^0.31.2"
   }

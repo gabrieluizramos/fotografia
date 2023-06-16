@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs';
+import { writeFile } from 'fs/promises';
 import { createRequire } from 'module';
 import pug from 'pug';
 
@@ -11,14 +11,12 @@ const getPhotos = () => {
     return photos;
 }
 
-export default () => {
-    return new Promise((resolve) => {
-        console.log('PUG: rendering template');
-        const photos = getPhotos();
-        const html = pug.renderFile('src/index.pug', { photos });
-        writeFileSync('src/index.html', html);
-        console.log('PUG: finished');
+export default async () => {
+    console.log('PUG: rendering template');
 
-        resolve();
-    });
+    const photos = getPhotos();
+    const html = pug.renderFile('src/index.pug', { photos });
+    await writeFile('src/index.html', html);
+
+    console.log('PUG: finished');
 }

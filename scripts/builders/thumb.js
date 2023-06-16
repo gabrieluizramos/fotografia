@@ -1,9 +1,5 @@
-import { promisify } from 'util';
-import Glob from 'glob';
+import { glob } from 'glob';
 import sharp from 'sharp';
-
-const { glob: globSync } = Glob;
-const glob = promisify(globSync);
 
 const getThumbPath = path => {
     const structure = path.split('/');
@@ -15,7 +11,7 @@ const getThumbPath = path => {
 
     return structure.join('/');
 };
-const findImages = () => glob('src/images/**/*[!.thumb].jpg');
+const findImages = () => glob('src/images/**/*.jpg');
 const processImage = (file, output) => sharp(file).resize({ width: 280 }).webp({ effort: 6 }).toFile(output);
 const processImages = async (files) => {
     const processing = files.map((file) => {
@@ -25,9 +21,13 @@ const processImages = async (files) => {
     return Promise.all(processing);
 };
 
-export default () => {
+export default async () => {
     console.log('THUMB: generating, please wait');
-    return findImages()
-    .then(processImages)
-    .then(() => console.log('THUMB: finished'));
+
+    const images = await findImages();
+    if (!images.length) return console.log('THUMB: no images found');
+
+    await processImages(images);
+
+    console.log('THUMB: finished');
 }
