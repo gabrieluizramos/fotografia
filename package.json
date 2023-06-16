@@ -13,7 +13,7 @@
     "deploy": "gh-pages -d src -b master"
   },
   "keywords": [],
-  "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
+  "author": "@gabrieluizramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^4.0.0",
