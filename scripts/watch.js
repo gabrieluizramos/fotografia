@@ -1,14 +1,15 @@
-const fs = require('fs');
-const path = require('path');
-const build = require('./builders');
+import { watch } from 'fs';
+import { extname } from 'path';
 
-console.log('Starting watcher');
-const watch = () => {
-    fs.watch('src', async (event, file) => {
-        const extension = path.extname(file);
-        if (extension != '.html') await build();
+import build, { buildByExtension } from './builders/index.js';
+
+const watcher = () => {
+    console.log('Starting watcher');
+    watch('src', {recursive: true}, async (_event, file) => {
+        const extension = extname(file);
+        await buildByExtension(extension);
     });
 }
 
 build()
-.then(watch);
+.then(watcher);

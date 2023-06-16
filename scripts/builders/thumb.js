@@ -1,13 +1,14 @@
-const { promisify } = require('util');
+import { promisify } from 'util';
+import Glob from 'glob';
+import sharp from 'sharp';
 
-const sharp = require('sharp');
-let glob = require('glob');
-glob = promisify(glob);
+const { glob: globSync } = Glob;
+const glob = promisify(globSync);
 
 const getThumbPath = path => {
     const structure = path.split('/');
-    const file = structure[structure.length - 1];
-    const [name, ext] = file.split('.');
+    const file = structure.at(-1);
+    const [name, _extension] = file.split('.');
     const thumb = `${name}.thumb.webp`;
 
     structure[structure.length - 1] = thumb;
@@ -15,16 +16,17 @@ const getThumbPath = path => {
     return structure.join('/');
 };
 const findImages = () => glob('src/images/**/*[!.thumb].jpg');
-const processImage = (path, output) => sharp(path).resize({ width: 280 }).webp({ effort: 6 }).toFile(output);
-const processImages = async (paths) => {
-    for await (path of paths) {
-        const output = getThumbPath(path);
-        await processImage(path, output);
-    }
+const processImage = (file, output) => sharp(file).resize({ width: 280 }).webp({ effort: 6 }).toFile(output);
+const processImages = async (files) => {
+    const processing = files.map((file) => {
+        const output = getThumbPath(file);
+        return processImage(file, output);
+    });
+    return Promise.all(processing);
 };
 
-module.exports = () => {
-    console.log('THUMB: generating');
+export default () => {
+    console.log('THUMB: generating, please wait');
     return findImages()
     .then(processImages)
     .then(() => console.log('THUMB: finished'));

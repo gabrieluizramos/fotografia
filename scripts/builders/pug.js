@@ -1,19 +1,22 @@
-const fs = require('fs');
-const pug = require('pug');
+import { writeFileSync } from 'fs';
+import { createRequire } from 'module';
+import pug from 'pug';
 
 const photosPath = '../../src/photos.json';
+const require = createRequire(import.meta.url);
+
 const getPhotos = () => {
     delete require.cache[require.resolve(photosPath)];
     const photos = require(photosPath);
     return photos;
 }
 
-module.exports = () => {
+export default () => {
     return new Promise((resolve) => {
         console.log('PUG: rendering template');
         const photos = getPhotos();
         const html = pug.renderFile('src/index.pug', { photos });
-        fs.writeFileSync('src/index.html', html);
+        writeFileSync('src/index.html', html);
         console.log('PUG: finished');
 
         resolve();

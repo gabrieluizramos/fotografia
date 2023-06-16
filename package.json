@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Portfolio fotográfico de @gabrieluizramos",
   "main": "index.html",
+  "type": "module",
   "scripts": {
-    "build:clear": "node ./scripts/clear.js",
+    "start": "node ./scripts/watch.js",
     "build": "node ./scripts/build.js",
-    "deploy": "gh-pages -d src -b master",
-    "start": "node ./scripts/watch.js"
+    "build:pug": "BUILDER=.pug node ./scripts/build.js",
+    "build:thumb": "BUILDER=.jpg node ./scripts/build.js",
+    "build:clear": "node ./scripts/clear.js",
+    "deploy": "gh-pages -d src -b master"
   },
   "keywords": [],
   "author": "Gabriel Ramos <gabriel.luiz.ramos@gmail.com> (https://gabrieluizramos.com.br)",

@@ -1,11 +1,12 @@
-const { promisify } = require('util');
-const fs = require('fs');
+import { promisify } from 'util';
+import { unlinkSync } from 'fs';
+import syncGlob from 'glob';
 
-let glob = require('glob');
-glob = promisify(glob);
+const glob = promisify(syncGlob);
 
 console.log('CLEAR: clearing building artifacts');
 glob('src/images/**/*.thumb.*')
-.then(files => files.map(file => fs.unlinkSync(file)))
+.then(files => files.map(file => unlinkSync(file)))
+.then(() => unlinkSync('src/index.html'))
 .then(() => console.log('CLEAR: done'))
 .catch(err => console.error('CLEAR: error', err));
