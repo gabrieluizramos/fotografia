@@ -34,7 +34,7 @@ mixin photos(category)
                 li.photo(data-ratio=category.ratio)
                     button.clickable
                         figure
-                            img(src=img data-href=href alt=category.title load="lazy")
+                            img(src=img data-href=href alt=category.title loading="lazy")
 mixin accordion(category)
     if category.open
         details.accordion(open)
