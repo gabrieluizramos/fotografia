@@ -3,7 +3,7 @@ import { glob } from 'glob';
 
 console.log('CLEAR: clearing building artifacts');
 try {
-    const files = await glob('src/**/*.{thumb.*,html}');
+    const files = await glob('src/**/*.{thumb.*,html,jpg}');
     const removal = files.map(file => unlink(file));
     await Promise.all(removal);
 

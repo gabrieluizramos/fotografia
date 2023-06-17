@@ -1,12 +1,15 @@
-import pug from './pug.js';
-import thumb from './thumb.js';
+import buildPug from './pug.js';
+import buildImages from './images.js';
 
 export const ALL = 'all';
+export const SKIP = '.thumb.webp';
+
 const byExtension = {
-    '.pug': pug,
-    '.json': pug,
-    '.jpg': thumb,
-    [ALL]: [pug, thumb]
+    '.pug': buildPug,
+    '.json': buildPug,
+    '.webp': buildImages,
+    '.jpg': () => buildImages('image'),
+    [ALL]: [buildPug, buildImages]
 };
 
 export default async (extension) => {
