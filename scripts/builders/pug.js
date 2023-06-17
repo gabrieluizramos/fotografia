@@ -1,21 +1,34 @@
-import { writeFile } from 'fs/promises';
-import { createRequire } from 'module';
+import { writeFile, readFile } from 'fs/promises';
+import { glob } from 'glob';
 import pug from 'pug';
 
-const photosPath = '../../src/photos.json';
-const require = createRequire(import.meta.url);
+const getFileContent = async (path) => {
+    const file = await readFile(path);
+    const content = JSON.parse(file);
 
-const getPhotos = () => {
-    delete require.cache[require.resolve(photosPath)];
-    const photos = require(photosPath);
-    return photos;
+    return content;
+}
+
+const getConfiguration = async () => {
+    const files = await glob('src/config/*.json');
+
+    let configs = files.map(async file => {
+        const name = file.split('/').at(-1).split('.').at(0);
+        const content = await getFileContent(file);
+        return [name, content];
+    })
+
+    configs = await Promise.all(configs);
+    configs = Object.fromEntries(configs);
+
+    return configs;
 }
 
 export default async () => {
     console.log('PUG: rendering template');
 
-    const photos = getPhotos();
-    const html = pug.renderFile('src/index.pug', { photos });
+    const options = await getConfiguration();
+    const html = pug.renderFile('src/index.pug', options);
     await writeFile('src/index.html', html);
 
     console.log('PUG: finished');
