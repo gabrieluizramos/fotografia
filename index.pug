@@ -29,7 +29,7 @@ mixin photos(category)
             - let count = 0;
             while count < category.count
                 - count++;
-                - const href = `${category.path}/photo-${count}.jpg`;
+                - const href = `${category.path}/photo-${count}.webp`;
                 - const img = `${category.path}/photo-${count}.thumb.webp`;
                 li.photo(data-ratio=category.ratio)
                     button.clickable
