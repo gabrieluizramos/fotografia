@@ -8,7 +8,8 @@
     "start": "node ./scripts/watch.js",
     "build": "TARGET=all node ./scripts/build.js",
     "build:pug": "TARGET=.pug node ./scripts/build.js",
-    "build:thumb": "TARGET=.jpg node ./scripts/build.js",
+    "build:thumb": "TARGET=.webp node ./scripts/build.js",
+    "build:images": "TARGET=.jpg node ./scripts/build.js",
     "build:clear": "node ./scripts/clear.js",
     "deploy": "gh-pages -d src -b master"
   },
