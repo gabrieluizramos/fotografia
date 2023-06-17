@@ -67,6 +67,12 @@ html(lang="pt-BR")
         header.header
             h1.title Gabriel / Ramos
             h2.subtitle Fotografia
+            ul.menu
+                each item in locals.menu
+                    li.menu-item(data-title=item.title)
+                        a.menu-link(href=item.href target="_blank" title=item.title)
+                            - const src = `icons/${item.title}.svg`
+                            img.menu-image(src=src)
         
         div.content
 
@@ -86,7 +92,7 @@ html(lang="pt-BR")
                             p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir.
 
                         figure.avatar
-                            img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos")
+                            img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos" loading="lazy")
 
             section.section.music
                 .wrapper
