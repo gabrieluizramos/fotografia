@@ -6,12 +6,12 @@
     padding: var(--spacing-triple) 0 var(--spacing-double);
 }
 
-.title {
+.header .title {
     font-size: var(--font-size-big);
     margin-bottom: var(--spacing-half);
 }
 
-.subtitle {
+.header .subtitle {
     font-size: var(--font-size-medium);
     margin-bottom: var(--spacing-default);
 }
