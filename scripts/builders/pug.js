@@ -1,4 +1,5 @@
 import { writeFile, readFile } from 'fs/promises';
+import { extname, basename } from 'path';
 import { glob } from 'glob';
 import pug from 'pug';
 
@@ -13,7 +14,7 @@ const getConfiguration = async () => {
     const files = await glob('src/config/*.json');
 
     let configs = files.map(async file => {
-        const name = file.split('/').at(-1).split('.').at(0);
+        const name = basename(file, extname(file));
         const content = await getFileContent(file);
         return [name, content];
     })

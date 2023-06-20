@@ -1,4 +1,5 @@
 import { glob } from 'glob';
+import { extname, basename, join } from 'path';
 import sharp from 'sharp';
 
 const globs = {
@@ -13,15 +14,15 @@ const globs = {
 }
 
 const getOutputFile = (type, path) => {
-    const structure = path.split('/');
-    const file = structure.at(-1);
-    const [name, _extension] = file.split('.');
+    const name = basename(path, extname(path));
+
     const extension = globs[type].output;
     const output = `${name}${extension}`;
 
-    structure[structure.length - 1] = output;
+    const structure = path.split('/');
+    structure.pop();
 
-    return structure.join('/');
+    return join(...structure, output);
 };
 const findImages = (type) => glob(globs[type].input);
 const processImage = (type, file, output) => {
