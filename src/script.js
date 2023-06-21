@@ -18,7 +18,19 @@ const loader = {
 }
 loader.start();
 
+const ARROW_LEFT = 37;
+const ARROW_RIGHT = 39;
 const polaroid = {
+    controls: {
+        arrows: {
+            [ARROW_LEFT]: 'prev',
+            [ARROW_RIGHT]: 'next'
+        }
+    },
+    state: {
+        open: false,
+        count: 0,
+    },
     elements: {
         modal: modal,
         figure: modal.querySelector('figure'),
@@ -42,11 +54,43 @@ const polaroid = {
             polaroid.elements.figure.dataset.alt = polaroid.captions.loading;
         },
         open(href, caption) {
-            polaroid.actions.reveal(href, caption),
+            polaroid.actions.reveal(href, caption);
             polaroid.elements.modal.showModal();
+            polaroid.state.open = true;
+
+            const [_images, section, category] = href.split('/');
+            const images = document.querySelectorAll(`section img[src*="${section}/${category}"]`);
+            polaroid.state.count = images.length;
         },
         close() {
             polaroid.elements.modal.close();
+            polaroid.state.open = false;
+            polaroid.state.count = 0;
+        },
+        carousel: {
+            getCurrentImageNumber(image) {
+                const number = Number(image.split('/').pop().split('.')[0].split('-').pop());
+                
+                return number;
+            },
+            getNewImage(image, from, to) {
+                const newImage = image.replace(`-${from}.`, `-${to}.`);
+    
+                return newImage;
+            },
+            rotate(to) {
+                if (!polaroid.state.open) return;
+    
+                let img = polaroid.elements.img.src;
+                const current = polaroid.actions.carousel.getCurrentImageNumber(img);
+    
+                const next = current + 1 > polaroid.state.count ? 1 : current + 1;
+                const prev = current - 1 < 1 ? polaroid.state.count : current - 1;
+                const actions = {next, prev};
+    
+                img = polaroid.actions.carousel.getNewImage(img, current, actions[to]);
+                polaroid.actions.reveal(img, polaroid.captions.loaded);
+            }
         },
     },
     events: {
@@ -55,6 +99,12 @@ const polaroid = {
             if (href) {
                 const alt = e.target.alt;
                 polaroid.actions.open(href, alt);
+            }
+
+            const key = e.keyCode;
+            if(polaroid.controls.arrows[key]){
+                const action = polaroid.controls.arrows[key];
+                polaroid.actions.carousel.rotate(action);
             }
         },
         backdrop(e) {
@@ -67,6 +117,7 @@ const polaroid = {
         },
         bind() {
             document.addEventListener('click', polaroid.events.check);
+            document.addEventListener('keydown', polaroid.events.check);
             
             const { modal, img, close } = polaroid.elements;
             modal.addEventListener('close', polaroid.actions.clear);
