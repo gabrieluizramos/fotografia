@@ -1,11 +1,24 @@
 {
     "concert": [
         {
+            "title": "Nile",
+            "path": "images/shows/nile",
+            "count": 6,
+            "ratio": "3-2",
+            "open": true,
+            "details": {
+                "venue": "Jai Club",
+                "date": "18/06/2023",
+                "press": {
+                    "vehicle": "Sonoridade Underground"
+                }
+            }
+        },
+        {
             "title": "Peter and the Test Tube Babies",
             "path": "images/shows/peter-and-the-test-tube-babies",
             "count": 31,
             "ratio": "3-2",
-            "open": true,
             "details": {
                 "artists": ["Dente Canino", "Urutu", "Peter and the Test Tube Babies"],
                 "venue": "Jai Club",
