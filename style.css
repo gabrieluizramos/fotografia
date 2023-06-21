@@ -107,7 +107,7 @@
     overflow: hidden;
     border: 2px solid currentColor;
     margin: 0 auto;
-    background: url(images/crow.thumb.webp) no-repeat center center;
+    background: url(images/crow.thumb.webp) no-repeat center center var(--color-black);
     background-size: cover;
 }
 
