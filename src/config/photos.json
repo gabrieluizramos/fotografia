@@ -10,21 +10,25 @@
                 "venue": "Jai Club",
                 "date": "18/06/2023",
                 "press": {
-                    "vehicle": "Sonoridade Underground"
+                    "vehicle": "Sonoridade Underground",
+                    "title": "Nile abala as estruturas da Jai Club com seu death metal poderoso em show sold out",
+                    "href": "https://sonoridadeunderground.com.br/2023/06/23/nile-abala-as-estruturas-da-jai-club-com-seu-death-metal-poderoso-em-show-sold-out/"
                 }
             }
         },
         {
-            "title": "Peter and the Test Tube Babies",
+            "title": "Peter And The Test Tube Babies",
             "path": "images/shows/peter-and-the-test-tube-babies",
             "count": 31,
             "ratio": "3-2",
             "details": {
-                "artists": ["Dente Canino", "Urutu", "Peter and the Test Tube Babies"],
+                "artists": ["Dente Canino", "Urutu", "Peter And The Test Tube Babies"],
                 "venue": "Jai Club",
                 "date": "10/06/2023",
                 "press": {
-                    "vehicle": "Sonoridade Underground"
+                    "vehicle": "Sonoridade Underground",
+                    "title": "Passagem de Peter And The Test Tube Babies pelo Brasil é marcado por setlist repleto de clássicos e de animada apresentação",
+                    "href": "https://sonoridadeunderground.com.br/2023/06/23/passagem-de-peter-and-the-test-tube-babies-pelo-brasil-e-marcado-por-setlist-repleto-de-classicos-e-de-animada-apresentacao/"
                 }
             }
         },
