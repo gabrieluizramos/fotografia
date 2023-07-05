@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.header, .footer {
+.header {
     padding: var(--spacing-triple) 0 var(--spacing-double);
 }
 
@@ -125,6 +125,7 @@
 .footer {
     text-align: center;
     font-size: var(--font-size-small);
+    padding: var(--spacing-triple) 0;
 }
 
 .expander {
