@@ -160,13 +160,13 @@
 .section.music .accordion[open] .expander {
     color: var(--color-red);
 }
-.section.lifestyle .accordion[open] .expander {
+.section.world .accordion[open] .expander {
     color: var(--color-terminal-blue-light);
 }
 .section.nature .accordion[open] .expander {
     color: var(--color-terminal-green);
 }
-.section.sports .accordion[open] .expander {
+.section.lifestyle .accordion[open] .expander {
     color: var(--color-terminal-yellow);
 }
 

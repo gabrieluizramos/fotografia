@@ -136,7 +136,7 @@
             "ratio": "1-1"
         }
     ],
-    "lifestyle": [
+    "world": [
         {
             "title": "Brasil",
             "path": "images/viagens/brasil",
@@ -178,7 +178,7 @@
             "ratio": "2-3"
         }
     ],
-    "sports": [
+    "lifestyle": [
         {
             "title": "CrossFit",
             "path": "images/esportes/crossfit",
