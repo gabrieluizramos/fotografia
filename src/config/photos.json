@@ -1,11 +1,24 @@
 {
     "concert": [
         {
+            "title": "Steve Hackett com Genetics",
+            "path": "images/shows/steve-hackett",
+            "count": 20,
+            "open": true,
+            "ratio": "3-2",
+            "details": {
+                "venue": "Espaço Unimed",
+                "date": "20/08/2023",
+                "press": {
+                    "vehicle": "Igor Miranda"
+                }
+            }
+        },
+        {
             "title": "Nile",
             "path": "images/shows/nile",
             "count": 6,
             "ratio": "3-2",
-            "open": true,
             "details": {
                 "venue": "Jai Club",
                 "date": "18/06/2023",
