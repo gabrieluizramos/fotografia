@@ -1,0 +1,14 @@
+[
+    {
+        "title": "CrossFit",
+        "path": "images/esportes/crossfit",
+        "count": 8,
+        "ratio": "3-2"
+    },
+    {
+        "title": "Produtos",
+        "path": "images/esportes/produtos",
+        "count": 14,
+        "ratio": "2-3"
+    }
+]

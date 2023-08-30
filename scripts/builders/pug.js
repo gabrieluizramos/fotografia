@@ -11,7 +11,7 @@ const getFileContent = async (path) => {
 }
 
 const getConfiguration = async () => {
-    const files = await glob('src/config/*.json');
+    const files = await glob('src/config/**/*.json');
 
     let configs = files.map(async file => {
         const name = basename(file, extname(file));
