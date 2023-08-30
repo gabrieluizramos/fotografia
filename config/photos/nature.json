@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Animais",
+        "path": "images/natureza/animais",
+        "count": 9,
+        "ratio": "2-3"
+    },
+    {
+        "title": "Macro",
+        "path": "images/natureza/macro",
+        "count": 7,
+        "ratio": "2-3"
+    }
+]
