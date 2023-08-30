@@ -1,25 +1,25 @@
 [
     {
         "title": "Brasil",
-        "path": "images/viagens/brasil",
+        "path": "images/world/brasil",
         "count": 12,
         "ratio": "2-3"
     },
     {
         "title": "Argentina",
-        "path": "images/viagens/argentina",
+        "path": "images/world/argentina",
         "count": 32,
         "ratio": "2-3"
     },
     {
         "title": "Irlanda & Irlanda do Norte",
-        "path": "images/viagens/irlanda-e-irlanda-do-norte",
+        "path": "images/world/irlanda-e-irlanda-do-norte",
         "count": 6,
         "ratio": "2-3"
     },
     {
         "title": "EUA",
-        "path": "images/viagens/eua",
+        "path": "images/world/eua",
         "count": 4,
         "ratio": "2-3"
     }

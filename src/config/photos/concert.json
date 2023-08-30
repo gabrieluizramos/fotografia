@@ -1,7 +1,7 @@
 [
     {
         "title": "Jonny Craig",
-        "path": "images/shows/downstage/jonny-craig",
+        "path": "images/concert/downstage/jonny-craig",
         "count": 27,
         "ratio": "2-3",
         "details": {
@@ -15,7 +15,7 @@
     },
     {
         "title": "Steve Hackett com Genetics",
-        "path": "images/shows/igor-miranda/steve-hackett",
+        "path": "images/concert/igor-miranda/steve-hackett",
         "count": 20,
         "ratio": "3-2",
         "details": {
@@ -30,7 +30,7 @@
     },
     {
         "title": "Nile",
-        "path": "images/shows/sonoridade-underground/nile",
+        "path": "images/concert/sonoridade-underground/nile",
         "count": 6,
         "ratio": "3-2",
         "details": {
@@ -45,7 +45,7 @@
     },
     {
         "title": "Peter And The Test Tube Babies",
-        "path": "images/shows/sonoridade-underground/peter-and-the-test-tube-babies",
+        "path": "images/concert/sonoridade-underground/peter-and-the-test-tube-babies",
         "count": 31,
         "ratio": "3-2",
         "details": {
@@ -61,7 +61,7 @@
     },
     {
         "title": "Fear Factory",
-        "path": "images/shows/igor-miranda/fear-factory",
+        "path": "images/concert/igor-miranda/fear-factory",
         "count": 41,
         "ratio": "3-2",
         "details": {
@@ -77,7 +77,7 @@
     },
     {
         "title": "Repetente Records (festa de 1 ano)",
-        "path": "images/shows/igor-miranda/repetente-records",
+        "path": "images/concert/igor-miranda/repetente-records",
         "count": "41",
         "ratio": "3-2",
         "details": {
@@ -93,7 +93,7 @@
     },
     {
         "title": "C6 Fest",
-        "path": "images/shows/igor-miranda/c6-fest",
+        "path": "images/concert/igor-miranda/c6-fest",
         "count": 33,
         "ratio": "3-2",
         "details": {
@@ -109,7 +109,7 @@
     },
     {
         "title": "Dado Villa-Lobos e Marcelo Bonfá (As V Estações)",
-        "path": "images/shows/igor-miranda/dado-villa-lobos-e-marcelo-bonfa",
+        "path": "images/concert/igor-miranda/dado-villa-lobos-e-marcelo-bonfa",
         "ratio": "3-2",
         "count": 17,
         "details": {
@@ -124,7 +124,7 @@
     },
     {
         "title": "Bring Me The Horizon",
-        "path": "images/shows/independente/bring-me-the-horizon",
+        "path": "images/concert/independent/bring-me-the-horizon",
         "count": 6,
         "ratio": "2-3",
         "details": {
@@ -134,7 +134,7 @@
     },
     {
         "title": "While She Sleeps (Vomit3d Party)",
-        "path": "images/shows/independente/while-she-sleeps",
+        "path": "images/concert/independent/while-she-sleeps",
         "count": 12,
         "ratio": "2-3",
         "details": {
@@ -145,7 +145,7 @@
     },
     {
         "title": "Fresno & Scalene",
-        "path": "images/shows/independente/fresno-e-scalene",
+        "path": "images/concert/independent/fresno-e-scalene",
         "count": 5,
         "ratio": "1-1"
     }
