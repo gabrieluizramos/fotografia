@@ -1,13 +1,13 @@
 [
     {
         "title": "CrossFit",
-        "path": "images/esportes/crossfit",
+        "path": "images/lifestyle/crossfit",
         "count": 8,
         "ratio": "3-2"
     },
     {
         "title": "Produtos",
-        "path": "images/esportes/produtos",
+        "path": "images/lifestyle/produtos",
         "count": 14,
         "ratio": "2-3"
     }
