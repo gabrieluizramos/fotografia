@@ -3,7 +3,6 @@
         "title": "Jonny Craig",
         "path": "images/concert/downstage/jonny-craig",
         "count": 27,
-        "ratio": "2-3",
         "details": {
             "artists": ["Sugar Kane", "Menores Atos", "Jonny Craig"],
             "venue": "Cine Jóia",
@@ -17,7 +16,6 @@
         "title": "Steve Hackett com Genetics",
         "path": "images/concert/igor-miranda/steve-hackett",
         "count": 20,
-        "ratio": "3-2",
         "details": {
             "venue": "Espaço Unimed",
             "date": "20/08/2023",
@@ -32,7 +30,6 @@
         "title": "Nile",
         "path": "images/concert/sonoridade-underground/nile",
         "count": 6,
-        "ratio": "3-2",
         "details": {
             "venue": "Jai Club",
             "date": "18/06/2023",
@@ -47,7 +44,6 @@
         "title": "Peter And The Test Tube Babies",
         "path": "images/concert/sonoridade-underground/peter-and-the-test-tube-babies",
         "count": 31,
-        "ratio": "3-2",
         "details": {
             "artists": ["Dente Canino", "Urutu", "Peter And The Test Tube Babies"],
             "venue": "Jai Club",
@@ -63,7 +59,6 @@
         "title": "Fear Factory",
         "path": "images/concert/igor-miranda/fear-factory",
         "count": 41,
-        "ratio": "3-2",
         "details": {
             "artists": ["Skin Culture", "Korzus", "Fear Factory"],
             "venue": "Fabrique Clube",
@@ -78,8 +73,7 @@
     {
         "title": "Repetente Records (festa de 1 ano)",
         "path": "images/concert/igor-miranda/repetente-records",
-        "count": "41",
-        "ratio": "3-2",
+        "count": 41,
         "details": {
             "artists": ["Anônimos Anônimos", "Faca Preta", "Fibonattis", "Escombro", "Statues On Fire", "Magüerbes"],
             "venue": "Fabrique Club",
@@ -95,7 +89,6 @@
         "title": "C6 Fest",
         "path": "images/concert/igor-miranda/c6-fest",
         "count": 33,
-        "ratio": "3-2",
         "details": {
             "artists": ["O Ano de 1973", "Tim Bernardes", "Black Country, New Road", "Caetano Veloso", "Weyes Blood", "The War On Drugs", "Samara Joy"],
             "venue": "Parque Ibirapuera",
@@ -110,7 +103,6 @@
     {
         "title": "Dado Villa-Lobos e Marcelo Bonfá (As V Estações)",
         "path": "images/concert/igor-miranda/dado-villa-lobos-e-marcelo-bonfa",
-        "ratio": "3-2",
         "count": 17,
         "details": {
             "venue": "Espaço Unimed",
@@ -126,7 +118,6 @@
         "title": "Bring Me The Horizon",
         "path": "images/concert/independent/bring-me-the-horizon",
         "count": 6,
-        "ratio": "2-3",
         "details": {
             "venue": "Vibra SP",
             "date": "16/12/2022"
@@ -136,7 +127,6 @@
         "title": "While She Sleeps (Vomit3d Party)",
         "path": "images/concert/independent/while-she-sleeps",
         "count": 12,
-        "ratio": "2-3",
         "details": {
             "artists": ["Axty", "While She Sleeps"],
             "venue": "VIP Station",
@@ -146,7 +136,6 @@
     {
         "title": "Fresno & Scalene",
         "path": "images/concert/independent/fresno-e-scalene",
-        "count": 5,
-        "ratio": "1-1"
+        "count": 5
     }
 ]

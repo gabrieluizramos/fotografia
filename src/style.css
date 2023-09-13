@@ -256,7 +256,7 @@
 }
 
 .photo {
-    min-width: 280px;
+    min-width: 200px;
 }
 
 .polaroid {
@@ -270,8 +270,10 @@
     cursor: zoom-in;
     display: block;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    background: transparent;
 }
+
 .photo .clickable:hover img {
     transform: scale(1.01);
     opacity: 0.85;
@@ -291,18 +293,6 @@
 .photo img {
     transform: initial;
     opacity: 1;
-}
-
-.photo[data-ratio="3-2"] img {
-    aspect-ratio: 3 / 2;
-}
-
-.photo[data-ratio="2-3"] img {
-    aspect-ratio: 2 / 3;
-}
-
-.photo[data-ratio="1-1"] img {
-    aspect-ratio: 1 / 1;
 }
 
 .details {

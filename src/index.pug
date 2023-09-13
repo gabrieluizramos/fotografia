@@ -32,7 +32,7 @@ mixin photos(category)
                 - count++;
                 - const href = `${category.path}/photo-${count}.webp`;
                 - const img = `${category.path}/photo-${count}.thumb.webp`;
-                li.photo(data-ratio=category.ratio)
+                li.photo
                     button.clickable
                         figure
                             img(src=img data-href=href alt=category.title loading="lazy")
