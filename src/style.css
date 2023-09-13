@@ -89,6 +89,10 @@
 
 .section .subtitle {
     font-size: var(--font-size-medium);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about {
@@ -153,6 +157,10 @@
     font-size: var(--font-size-medium);
 }
 
+.expander[data-emoji]::before {
+    content: attr(data-emoji) !important;
+}
+
 .accordion[open] .expander::before {
     content: '-';
 }
@@ -168,6 +176,31 @@
 }
 .section.lifestyle .accordion[open] .expander {
     color: var(--color-terminal-yellow);
+}
+
+.vehicle {
+    padding: 0 var(--spacing-half);
+    border-radius: var(--radius-default);
+    color: var(--color-black);
+    display: inline-block;
+    font-weight: bold;
+    transition: var(--transition-default);
+}
+
+.vehicle[data-name="Igor Miranda"] {
+    background: var(--color-red);
+}
+
+.vehicle[data-name="Sonoridade Underground"] {
+    background: var(--color-terminal-yellow);
+}
+
+.vehicle[data-name="DownStage"] {
+    background: var(--color-terminal-purple);
+}
+
+.vehicle:hover {
+    color: var(--color-white);
 }
 
 .scrollable {
@@ -275,6 +308,9 @@
 .details {
     padding-bottom: var(--spacing-half);
     font-size: var(--font-size-smaller);
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-half) / 2);
 }
 
 .artist {

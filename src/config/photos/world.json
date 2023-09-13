@@ -1,24 +1,28 @@
 [
     {
         "title": "Brasil",
+        "emoji": "🇧🇷",
         "path": "images/world/brasil",
         "count": 12,
         "ratio": "2-3"
     },
     {
-        "title": "Argentina",
+        "title": "Argentina ",
+        "emoji": "🇦🇷",
         "path": "images/world/argentina",
         "count": 32,
         "ratio": "2-3"
     },
     {
-        "title": "Irlanda & Irlanda do Norte",
+        "title": "Irlanda",
+        "emoji": "🇮🇪",
         "path": "images/world/irlanda-e-irlanda-do-norte",
         "count": 6,
         "ratio": "2-3"
     },
     {
         "title": "EUA",
+        "emoji": "🇺🇸",
         "path": "images/world/eua",
         "count": 4,
         "ratio": "2-3"

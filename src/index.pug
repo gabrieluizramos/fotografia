@@ -18,11 +18,12 @@ mixin details(category)
                         - const base = locals.press[category.details.press.vehicle]
                         - const article = category.details.press.article;
                         - const href = article ? `${base}${article}` : base
-                        a.link(href=href  target="_blank" title=category.details.press.title) #{category.details.press.vehicle}
+                        a.vehicle(href=href  target="_blank" title=category.details.press.title data-name=category.details.press.vehicle) #{category.details.press.vehicle}
 
 mixin photos(category)
-    summary.expander
-        h4.subtitle #{category.title}
+    summary.expander(data-emoji=category.emoji)
+        h4.subtitle
+            span #{category.title}
     +details(category)
     .gallery
         ul.scrollable
