@@ -184,7 +184,6 @@
     color: var(--color-black);
     display: inline-block;
     font-weight: bold;
-    transition: var(--transition-default);
 }
 
 .vehicle[data-name="Igor Miranda"] {
