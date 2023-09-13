@@ -2,13 +2,11 @@
     {
         "title": "Animais",
         "path": "images/nature/animais",
-        "count": 9,
-        "ratio": "2-3"
+        "count": 9
     },
     {
         "title": "Macro",
         "path": "images/nature/macro",
-        "count": 7,
-        "ratio": "2-3"
+        "count": 7
     }
 ]
