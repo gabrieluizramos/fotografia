@@ -1,5 +1,18 @@
 [
     {
+        "title": "Diogo Defante",
+        "path": "images/concert/downstage/diogo-defante",
+        "count": 53,
+        "details": {
+            "artists": ["Lunar Society Club", "Diogo Defante"],
+            "venue": "Carioca Club",
+            "date": "27/08/2023",
+            "press": {
+                "vehicle": "DownStage"
+            }
+        }
+    },
+    {
         "title": "Jonny Craig",
         "path": "images/concert/downstage/jonny-craig",
         "count": 27,
