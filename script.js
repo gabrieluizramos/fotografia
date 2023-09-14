@@ -95,9 +95,12 @@ const polaroid = {
     },
     events: {
         check(e) {
-            const href = e.target.dataset.href;
-            if (href) {
-                const alt = e.target.alt;
+            const element = e.target;
+            const clickable = element.classList.contains('clickable');
+            if (clickable) {
+                const image = element.querySelector('img');
+                const href = image.dataset.href;
+                const alt = image.alt;
                 polaroid.actions.open(href, alt);
             }
 
