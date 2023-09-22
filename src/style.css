@@ -178,6 +178,28 @@
     color: var(--color-terminal-yellow);
 }
 
+.vehicles-list {
+    font-size: var(--font-size-small);
+    padding-left: var(--spacing-half);
+}
+
+.vehicles-item {
+    display: inline;
+}
+
+.vehicles-item:not(:first-child):before {
+    content: ', ';
+}
+
+.vehicles-item:last-child:before {
+    content: 'e ';
+    margin-left: var(--spacing-half);
+}
+
+.vehicles-item:last-child:after {
+    content: '.';
+}
+
 .vehicle {
     padding: 0 var(--spacing-half);
     border-radius: var(--radius-default);
@@ -186,15 +208,15 @@
     font-weight: bold;
 }
 
-.vehicle[data-name="Igor Miranda"] {
+.vehicle.red {
     background: var(--color-red);
 }
 
-.vehicle[data-name="Sonoridade Underground"] {
+.vehicle.yellow {
     background: var(--color-terminal-yellow);
 }
 
-.vehicle[data-name="DownStage"] {
+.vehicle.purple {
     background: var(--color-terminal-purple);
 }
 

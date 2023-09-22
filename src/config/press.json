@@ -1,5 +1,14 @@
 {
-    "Igor Miranda": "https://igormiranda.com.br",
-    "Sonoridade Underground": "https://sonoridadeunderground.com.br",
-    "DownStage": "https://downstage.com.br"
+    "Igor Miranda": {
+        "url": "https://igormiranda.com.br",
+        "color": "red"
+    },
+    "Sonoridade Underground": {
+        "url": "https://sonoridadeunderground.com.br",
+        "color": "yellow"
+    },
+    "DownStage": {
+        "url": "https://downstage.com.br",
+        "color": "purple"
+    }
 }
