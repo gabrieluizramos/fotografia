@@ -15,10 +15,11 @@ mixin details(category)
             if category.details.press
                 p.press
                     span.detail Veículo: !{" "}
-                        - const base = locals.press[category.details.press.vehicle]
+                        - const base = locals.press[category.details.press.vehicle].url
                         - const article = category.details.press.article;
                         - const href = article ? `${base}${article}` : base
-                        a.vehicle(href=href  target="_blank" title=category.details.press.title data-name=category.details.press.vehicle) #{category.details.press.vehicle}
+                        - const classes = `vehicle ${locals.press[category.details.press.vehicle].color}`
+                        a(href=href  target="_blank" title=category.details.press.title class=classes) #{category.details.press.vehicle}
 
 mixin photos(category)
     summary.expander(data-emoji=category.emoji)
@@ -91,7 +92,14 @@ html(lang="pt-BR")
 
                             p.text Sentir a energia de uma música que ecoa em meio à entrega de um artista ao público quando está sobre palco e sublimar esses momentos em algo mais concreto, palpável e visual é uma experiência única e até difícil de descrever.
 
-                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir.
+                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. E é nessa jornada em frente aos palcos que já tive a honra de trabalhar com os veículos
+                                - const vehicles = Object.entries(locals.press)
+                                span.vehicles-list
+                                    each vehicle in vehicles
+                                        span.vehicles-item
+                                            - const [name, info] = vehicle;
+                                            - const classes = `vehicle ${info.color}`
+                                            a(class=classes href=info.url target="_blank") #{name}
 
                         figure.avatar
                             img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos" loading="lazy")
