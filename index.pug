@@ -46,7 +46,8 @@ mixin accordion(category)
             +photos(category)
 
 mixin gallery(name)
-    each category, index in locals[name]
+    - const gallery = locals[name].filter(g => g.count)
+    each category, index in gallery
         - category.open = index === 0
         +accordion(category)
 //- Page ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

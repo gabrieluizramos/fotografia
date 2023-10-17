@@ -1,5 +1,32 @@
 [
     {
+        "title": "Marky Ramone",
+        "path": "images/concert/igor-miranda/marky-ramone",
+        "count": 59,
+        "details": {
+            "artists": ["School of Rock", "Apnea", "Electric Punk", "Marky Ramone"],
+            "venue": "Carioca Club",
+            "date": "15/10/2023",
+            "press": {
+                "vehicle": "Igor Miranda",
+                "title": "Marky Ramone's Blitzkrieg faz show mais curto, mas agrada público em São Paulo",
+                "article": "/2023/10/marky-ramone-sao-paulo-2023-resenha/"
+            }
+        }
+    },
+    {
+        "title": "Supercombo",
+        "path": "images/concert/downstage/supercombo",
+        "count": 0,
+        "details": {
+            "venue": "Cine Jóia",
+            "date": "24/09/2023",
+            "press": {
+                "vehicle": "DownStage"
+            }
+        }
+    },
+    {
         "title": "Diogo Defante",
         "path": "images/concert/downstage/diogo-defante",
         "count": 53,
