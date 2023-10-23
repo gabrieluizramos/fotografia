@@ -58,8 +58,11 @@ const polaroid = {
             polaroid.elements.modal.showModal();
             polaroid.state.open = true;
 
-            const [_images, section, category] = href.split('/');
-            const images = document.querySelectorAll(`section img[src*="${section}/${category}"]`);
+            const [_images, section, category, name] = href.split('/');
+            let path = name.endsWith('.webp') ? [section, category] : [section, category, name];
+            path = path.join('/');
+            const images = document.querySelectorAll(`section img[src*="${path}"]`);
+
             polaroid.state.count = images.length;
         },
         close() {
