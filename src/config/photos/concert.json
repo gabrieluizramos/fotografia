@@ -1,5 +1,18 @@
 [
     {
+        "title": "Evanescense",
+        "path": "images/concert/downstage/evanescense",
+        "count": 46,
+        "details": {
+            "artists": ["Ego Kill Talent", "Evanescense"],
+            "venue": "Allianz Parque",
+            "date": "21/10/2023",
+            "press": {
+                "vehicle": "DownStage"
+            }
+        }
+    },
+    {
         "title": "Marky Ramone",
         "path": "images/concert/igor-miranda/marky-ramone",
         "count": 59,
