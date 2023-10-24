@@ -441,6 +441,7 @@
     align-items: center;
     justify-content: center;
     transition: var(--transition-default);
+    z-index: 1;
 }
 
 .loader img {

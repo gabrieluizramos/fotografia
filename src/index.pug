@@ -69,6 +69,10 @@ html(lang="pt-BR")
         title Fotografia | Gabriel Ramos
 
     body.body
+        div.loader(data-loading)
+            figure.crow
+                img(src="images/crow.thumb.webp")
+
         header.header
             h1.title Gabriel / Ramos
             h2.subtitle Fotografia
@@ -178,9 +182,5 @@ html(lang="pt-BR")
                 figure.figure.polaroid(data-alt="Carregando...")
                     img.img
                     button.close &times;
-
-        div.loader(data-loading)
-            figure.crow
-                img(src="images/crow.thumb.webp")
 
         script(src="./script.js")
