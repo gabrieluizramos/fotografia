@@ -136,5 +136,4 @@ const polaroid = {
        polaroid.events.bind();
     }
 };
-
 polaroid.start();

@@ -37,7 +37,8 @@ mixin photos(category)
                 li.photo
                     button.clickable
                         figure
-                            img(src=img data-href=href alt=category.title loading="lazy")
+                            - const loading = category.open ? 'eager' : 'lazy';
+                            img(src=img data-href=href alt=category.title loading=loading)
 mixin accordion(category)
     if category.open
         details.accordion(open)
@@ -77,6 +78,9 @@ html(lang="pt-BR")
             h1.title Gabriel / Ramos
             h2.subtitle Fotografia
             ul.menu
+                li.menu-item(data-title="contato")
+                    a.menu-link(href="#contato" title="contato")
+                        img.menu-image(src='icons/envelope.svg')
                 each item in locals.menu
                     li.menu-item(data-title=item.title)
                         a.menu-link(href=item.href target="_blank" title=item.title)
@@ -159,8 +163,8 @@ html(lang="pt-BR")
                     h3.title 🏋🏼 Esportes & Produtos
                     +gallery('lifestyle')
 
-            section.section
-                .wrapper 
+            section.section#contato
+                .wrapper
                     h3.title Contato & Download
                     
                     p.text Se quiser bater um papo, é só entrar em contato comigo através do email <a href="mailto:gabriel.luiz.ramos@gmail.com">gabriel.luiz.ramos@gmail.com</a>. Você pode entrar em contato comigo através das minhas redes sociais também, como meu instagram <a href="https://www.instagram.com/gabrieluizramos/" target="_blank">@gabrieluizramos</a>.
