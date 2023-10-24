@@ -208,16 +208,20 @@
     font-weight: bold;
 }
 
-.vehicle.red {
-    background: var(--color-red);
+.vehicle.igormiranda {
+    background: #e84c3d;
 }
 
-.vehicle.yellow {
-    background: var(--color-terminal-yellow);
+.vehicle.sonoridadeunderground {
+    background: #f8a002;
 }
 
-.vehicle.purple {
-    background: var(--color-terminal-purple);
+.vehicle.downstage {
+    background: #d691ac;
+}
+
+.vehicle.boomerangmusic {
+    background: #ac5200;
 }
 
 .vehicle:hover {
