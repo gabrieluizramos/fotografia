@@ -1,7 +1,20 @@
 [
     {
+        "title": "PatFest 2",
+        "path": "images/concert/5-boomerang-music/1-patfest2",
+        "count": 66,
+        "details": {
+            "artists": ["Andreas Kisser e família", "Samuel Rosa", "Paulo Miklos", "Sandy", "Serginho Groisman", "Badauí", "Dinho Ouro Preto", "Marisa Orth", "Lobão", "Di Ferrero", "Marcelo Barbosa", "Felipe Andreoli", "Rafael Bittencourt", "BNegão", "Egypcio e vários outros"],
+            "venue": "Audio Club",
+            "date": "25/10/2023",
+            "press": {
+                "vehicle": "Boomerang Music"
+            }
+        }
+    },
+    {
         "title": "Evanescense",
-        "path": "images/concert/downstage/evanescense",
+        "path": "images/concert/4-downstage/4-evanescense",
         "count": 46,
         "details": {
             "artists": ["Ego Kill Talent", "Evanescense"],
@@ -14,7 +27,7 @@
     },
     {
         "title": "Marky Ramone",
-        "path": "images/concert/igor-miranda/marky-ramone",
+        "path": "images/concert/2-igor-miranda/6-marky-ramone",
         "count": 59,
         "details": {
             "artists": ["School of Rock", "Apnea", "Electric Punk", "Marky Ramone"],
@@ -29,8 +42,8 @@
     },
     {
         "title": "Supercombo",
-        "path": "images/concert/downstage/supercombo",
-        "count": 0,
+        "path": "images/concert/4-downstage/3-supercombo",
+        "count": 31,
         "details": {
             "venue": "Cine Jóia",
             "date": "24/09/2023",
@@ -41,7 +54,7 @@
     },
     {
         "title": "Diogo Defante",
-        "path": "images/concert/downstage/diogo-defante",
+        "path": "images/concert/4-downstage/2-diogo-defante",
         "count": 53,
         "details": {
             "artists": ["Lunar Society Club", "Diogo Defante"],
@@ -54,7 +67,7 @@
     },
     {
         "title": "Jonny Craig",
-        "path": "images/concert/downstage/jonny-craig",
+        "path": "images/concert/4-downstage/1-jonny-craig",
         "count": 27,
         "details": {
             "artists": ["Sugar Kane", "Menores Atos", "Jonny Craig"],
@@ -67,7 +80,7 @@
     },
     {
         "title": "Steve Hackett com Genetics",
-        "path": "images/concert/igor-miranda/steve-hackett",
+        "path": "images/concert/2-igor-miranda/5-steve-hackett",
         "count": 20,
         "details": {
             "venue": "Espaço Unimed",
@@ -81,7 +94,7 @@
     },
     {
         "title": "Nile",
-        "path": "images/concert/sonoridade-underground/nile",
+        "path": "images/concert/3-sonoridade-underground/2-nile",
         "count": 6,
         "details": {
             "venue": "Jai Club",
@@ -95,7 +108,7 @@
     },
     {
         "title": "Peter And The Test Tube Babies",
-        "path": "images/concert/sonoridade-underground/peter-and-the-test-tube-babies",
+        "path": "images/concert/3-sonoridade-underground/1-peter-and-the-test-tube-babies",
         "count": 31,
         "details": {
             "artists": ["Dente Canino", "Urutu", "Peter And The Test Tube Babies"],
@@ -110,7 +123,7 @@
     },
     {
         "title": "Fear Factory",
-        "path": "images/concert/igor-miranda/fear-factory",
+        "path": "images/concert/2-igor-miranda/4-fear-factory",
         "count": 41,
         "details": {
             "artists": ["Skin Culture", "Korzus", "Fear Factory"],
@@ -125,8 +138,8 @@
     },
     {
         "title": "Repetente Records (festa de 1 ano)",
-        "path": "images/concert/igor-miranda/repetente-records",
-        "count": 41,
+        "path": "images/concert/2-igor-miranda/3-repetente-records",
+        "count": 38,
         "details": {
             "artists": ["Anônimos Anônimos", "Faca Preta", "Fibonattis", "Escombro", "Statues On Fire", "Magüerbes"],
             "venue": "Fabrique Club",
@@ -140,7 +153,7 @@
     },
     {
         "title": "C6 Fest",
-        "path": "images/concert/igor-miranda/c6-fest",
+        "path": "images/concert/2-igor-miranda/2-c6-fest",
         "count": 33,
         "details": {
             "artists": ["O Ano de 1973", "Tim Bernardes", "Black Country, New Road", "Caetano Veloso", "Weyes Blood", "The War On Drugs", "Samara Joy"],
@@ -155,7 +168,7 @@
     },
     {
         "title": "Dado Villa-Lobos e Marcelo Bonfá (As V Estações)",
-        "path": "images/concert/igor-miranda/dado-villa-lobos-e-marcelo-bonfa",
+        "path": "images/concert/2-igor-miranda/1-dado-villa-lobos-e-marcelo-bonfa",
         "count": 17,
         "details": {
             "venue": "Espaço Unimed",
@@ -169,7 +182,7 @@
     },
     {
         "title": "Bring Me The Horizon",
-        "path": "images/concert/independent/bring-me-the-horizon",
+        "path": "images/concert/1-independente/3-bring-me-the-horizon",
         "count": 6,
         "details": {
             "venue": "Vibra SP",
@@ -178,7 +191,7 @@
     },
     {
         "title": "While She Sleeps (Vomit3d Party)",
-        "path": "images/concert/independent/while-she-sleeps",
+        "path": "images/concert/1-independente/2-while-she-sleeps",
         "count": 12,
         "details": {
             "artists": ["Axty", "While She Sleeps"],
@@ -188,7 +201,7 @@
     },
     {
         "title": "Fresno & Scalene",
-        "path": "images/concert/independent/fresno-e-scalene",
+        "path": "images/concert/1-independente/fresno-e-scalene",
         "count": 5
     }
 ]
