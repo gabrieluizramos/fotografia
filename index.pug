@@ -15,10 +15,11 @@ mixin details(category)
             if category.details.press
                 p.press
                     span.detail Veículo: !{" "}
-                        - const base = locals.press[category.details.press.vehicle].url
+                        - const base = locals.press[category.details.press.vehicle]
                         - const article = category.details.press.article;
                         - const href = article ? `${base}${article}` : base
-                        - const classes = `vehicle ${locals.press[category.details.press.vehicle].color}`
+                        - const vehicleClass = category.details.press.vehicle.toLowerCase().replace(/\s/g, '');
+                        - const classes = `vehicle ${vehicleClass}`
                         a(href=href  target="_blank" title=category.details.press.title class=classes) #{category.details.press.vehicle}
 
 mixin photos(category)
@@ -36,7 +37,8 @@ mixin photos(category)
                 li.photo
                     button.clickable
                         figure
-                            img(src=img data-href=href alt=category.title loading="lazy")
+                            - const loading = category.open ? 'eager' : 'lazy';
+                            img(src=img data-href=href alt=category.title loading=loading)
 mixin accordion(category)
     if category.open
         details.accordion(open)
@@ -68,10 +70,17 @@ html(lang="pt-BR")
         title Fotografia | Gabriel Ramos
 
     body.body
+        div.loader(data-loading)
+            figure.crow
+                img(src="images/crow.thumb.webp")
+
         header.header
             h1.title Gabriel / Ramos
             h2.subtitle Fotografia
             ul.menu
+                li.menu-item(data-title="contato")
+                    a.menu-link(href="#contato" title="contato")
+                        img.menu-image(src='icons/envelope.svg')
                 each item in locals.menu
                     li.menu-item(data-title=item.title)
                         a.menu-link(href=item.href target="_blank" title=item.title)
@@ -98,9 +107,10 @@ html(lang="pt-BR")
                                 span.vehicles-list
                                     each vehicle in vehicles
                                         span.vehicles-item
-                                            - const [name, info] = vehicle;
-                                            - const classes = `vehicle ${info.color}`
-                                            a(class=classes href=info.url target="_blank") #{name}
+                                            - const [name, url] = vehicle
+                                            - const vehicleClass = name.toLowerCase().replace(/\s/g, '');
+                                            - const classes = `vehicle ${vehicleClass}`
+                                            a(class=classes href=url target="_blank") #{name}
 
                         figure.avatar
                             img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos" loading="lazy")
@@ -153,8 +163,8 @@ html(lang="pt-BR")
                     h3.title 🏋🏼 Esportes & Produtos
                     +gallery('lifestyle')
 
-            section.section
-                .wrapper 
+            section.section#contato
+                .wrapper
                     h3.title Contato & Download
                     
                     p.text Se quiser bater um papo, é só entrar em contato comigo através do email <a href="mailto:gabriel.luiz.ramos@gmail.com">gabriel.luiz.ramos@gmail.com</a>. Você pode entrar em contato comigo através das minhas redes sociais também, como meu instagram <a href="https://www.instagram.com/gabrieluizramos/" target="_blank">@gabrieluizramos</a>.
@@ -176,9 +186,5 @@ html(lang="pt-BR")
                 figure.figure.polaroid(data-alt="Carregando...")
                     img.img
                     button.close &times;
-
-        div.loader(data-loading)
-            figure.crow
-                img(src="images/crow.thumb.webp")
 
         script(src="./script.js")
