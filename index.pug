@@ -1,4 +1,13 @@
 //- Mixins ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+mixin vehicle(press, more)
+    - const base = locals.press[press.vehicle]
+    - const article = press.article;
+    - const href = article ? `${base}${article}` : base
+    - const vehicleClass = press.vehicle.toLowerCase().replace(/\s/g, '');
+    - const classes = `vehicle ${vehicleClass} ${more && 'more'}`
+    a(href=href  target="_blank" title=press.title class=classes) #{press.vehicle}
+
 mixin details(category)
     if category.details
         .details
@@ -15,12 +24,12 @@ mixin details(category)
             if category.details.press
                 p.press
                     span.detail Veículo: !{" "}
-                        - const base = locals.press[category.details.press.vehicle]
-                        - const article = category.details.press.article;
-                        - const href = article ? `${base}${article}` : base
-                        - const vehicleClass = category.details.press.vehicle.toLowerCase().replace(/\s/g, '');
-                        - const classes = `vehicle ${vehicleClass}`
-                        a(href=href  target="_blank" title=category.details.press.title class=classes) #{category.details.press.vehicle}
+                        +vehicle(category.details.press)
+                if category.details.press.more
+                    p.press
+                        span.detail Veja mais em: !{" "}
+                            each extra in category.details.press.more
+                                +vehicle(extra, true)
 
 mixin photos(category)
     summary.expander(data-emoji=category.emoji)
@@ -102,7 +111,7 @@ html(lang="pt-BR")
 
                             p.text Sentir a energia de uma música que ecoa em meio à entrega de um artista ao público quando está sobre palco e sublimar esses momentos em algo mais concreto, palpável e visual é uma experiência única e até difícil de descrever.
 
-                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. E é nessa jornada em frente aos palcos que já tive a honra de trabalhar com os veículos
+                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. E é nessa jornada em frente aos palcos que já tive a honra de ter minhas fotos utilizadas pelos veículos
                                 - const vehicles = Object.entries(locals.press)
                                 span.vehicles-list
                                     each vehicle in vehicles

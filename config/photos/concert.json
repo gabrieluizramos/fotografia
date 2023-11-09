@@ -1,5 +1,54 @@
 [
     {
+        "title": "Alter Bridge",
+        "path": "images/concert/2-igor-miranda/8-alter-bridge",
+        "count": 5,
+        "details": {
+            "venue": "Espaço Unimed",
+            "date": "08/11/1023",
+            "press": {
+                "vehicle": "Igor Miranda",
+                "title": "Alter Bridge faz show tecnicamente preciso em São Paulo",
+                "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/"
+            }
+        }
+    },
+    {
+        "title": "GP Week",
+        "path": "images/concert/2-igor-miranda/7-gp-week",
+        "count": 28,
+        "details": {
+            "artists": ["Machine Gun Kelly", "Swedish House Mafia", "Iza", "Sofi Tukker"],
+            "venue": "Allianz Parque",
+            "date": "04/11/2023 e 05/11/2023",
+            "press": {
+                "vehicle": "Igor Miranda",
+                "title": "GPWeek abraça a diversidade musical em sua segunda edição",
+                "article": "/2023/11/gpweek-2023-resenha/",
+                "more": [
+                    {
+                        "vehicle": "Hedflow",
+                        "title": "Pop Punk e House Music foram os destaque do 1º dia do GP Week Brasil 2023",
+                        "article": "/2023/11/08/pop-punk-e-house-music-foram-os-destaque-do-1o-dia-do-gp-week-brasil-2023/"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title": "Angra",
+        "path": "images/concert/5-boomerang-music/2-angra",
+        "count": 24,
+        "details": {
+            "artists": ["Luiz Toffoli", "Allen Key", "Angra"],
+            "venue": "Tokio Marine Hall",
+            "date": "03/11/2023",
+            "press": {
+                "vehicle": "Boomerang Music"
+            }
+        }
+    },
+    {
         "title": "PatFest 2",
         "path": "images/concert/5-boomerang-music/1-patfest2",
         "count": 66,

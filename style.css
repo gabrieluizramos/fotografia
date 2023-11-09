@@ -224,8 +224,20 @@
     background: #ac5200;
 }
 
-.vehicle:hover {
+.vehicle.hedflow {
+    background: #ffffff;
+}
+
+.vehicle:not(.more):hover {
     color: var(--color-white);
+}
+
+.vehicle.hedflow:hover {
+    color: initial;
+}
+
+.vehicle.more:not(:last-child) {
+    margin-right: var(--spacing-half);
 }
 
 .scrollable {
