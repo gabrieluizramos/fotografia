@@ -1,20 +1,22 @@
 [
     {
         "title": "Alter Bridge",
-        "path": "images/concert/1-igor-miranda/8-alter-bridge",
-        "count": 0,
+        "path": "images/concert/2-igor-miranda/8-alter-bridge",
+        "count": 5,
         "details": {
             "venue": "Espaço Unimed",
             "date": "08/11/1023",
             "press": {
-                "vehicle": "Igor Miranda"
+                "vehicle": "Igor Miranda",
+                "title": "Alter Bridge faz show tecnicamente preciso em São Paulo",
+                "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/"
             }
         }
     },
     {
         "title": "GP Week",
-        "path": "images/concert/1-igor-miranda/7-gp-week",
-        "count": 0,
+        "path": "images/concert/2-igor-miranda/7-gp-week",
+        "count": 28,
         "details": {
             "artists": ["Machine Gun Kelly", "Swedish House Mafia", "Iza", "Sofi Tukker"],
             "venue": "Allianz Parque",
@@ -36,7 +38,7 @@
     {
         "title": "Angra",
         "path": "images/concert/5-boomerang-music/2-angra",
-        "count": 0,
+        "count": 24,
         "details": {
             "artists": ["Luiz Toffoli", "Allen Key", "Angra"],
             "venue": "Tokio Marine Hall",
