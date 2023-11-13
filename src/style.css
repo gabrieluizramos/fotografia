@@ -99,6 +99,27 @@
     justify-content: flex-end;
 }
 
+.accordion.archive .subtitle.subdivision  {
+    cursor: pointer;
+}
+
+.accordion.archive > .expander {
+    border: 0;
+}
+
+.accordion.archive > .expander:before,
+.accordion.archive[open] > .expander:before {
+    content: '';
+}
+
+.accordion.archive > .expander .subtitle span:after {
+    content: 'mais';
+}
+
+.accordion.archive[open] > .expander .subtitle span:after {
+    content: 'menos';
+}
+
 .about {
     display: flex;
     align-items: center;

@@ -63,7 +63,7 @@ mixin gallery(items, archived)
 
 mixin archive(items)
     details.accordion.archive
-        summary.expander.subdivision(data-emoji="🗄️")
+        summary.expander.subdivision
             h4.subtitle.subdivision
-                span Anteriores        
+                span Ver        
         +gallery(items, true)
