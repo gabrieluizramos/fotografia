@@ -21,8 +21,9 @@ mixin details(category)
                     span.detail !{" "} #{category.details.venue}
             if category.details.press
                 p.press
-                    span.detail Veículo: !{" "}
-                        +vehicle(category.details.press)
+                    - const label = category.details.press.article ? 'Leia a matéria completa: ' : 'Veículo: ';
+                    span.detail #{label}
+                    +vehicle(category.details.press)
                 if category.details.press.more
                     p.press
                         span.detail Veja mais em: !{" "}
