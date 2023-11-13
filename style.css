@@ -95,6 +95,31 @@
     align-items: center;
 }
 
+.subtitle.subdivision  {
+    justify-content: flex-end;
+}
+
+.accordion.archive .subtitle.subdivision  {
+    cursor: pointer;
+}
+
+.accordion.archive > .expander {
+    border: 0;
+}
+
+.accordion.archive > .expander:before,
+.accordion.archive[open] > .expander:before {
+    content: '';
+}
+
+.accordion.archive > .expander .subtitle span:after {
+    content: 'mais';
+}
+
+.accordion.archive[open] > .expander .subtitle span:after {
+    content: 'menos';
+}
+
 .about {
     display: flex;
     align-items: center;
@@ -157,24 +182,32 @@
     font-size: var(--font-size-medium);
 }
 
-.expander[data-emoji]::before {
+.expander:not(.subdivision)[data-emoji]::before {
     content: attr(data-emoji) !important;
 }
 
-.accordion[open] .expander::before {
+.expander.subdivision[data-emoji]::after {
+    content: attr(data-emoji) !important;
+}
+
+.accordion.archive {
+    margin-top: var(--spacing-double);
+}
+
+.accordion[open] > .expander::before {
     content: '-';
 }
 
-.section.music .accordion[open] .expander {
+.section.music .accordion[open] > .expander {
     color: var(--color-red);
 }
-.section.world .accordion[open] .expander {
+.section.world .accordion[open] > .expander {
     color: var(--color-terminal-blue-light);
 }
-.section.nature .accordion[open] .expander {
+.section.nature .accordion[open] > .expander {
     color: var(--color-terminal-green);
 }
-.section.lifestyle .accordion[open] .expander {
+.section.lifestyle .accordion[open] > .expander {
     color: var(--color-terminal-yellow);
 }
 
@@ -309,6 +342,7 @@
     width: 100%;
     min-height: 100%;
     background: var(--color-white);
+    outline: none;
 }
 
 .photo .clickable:hover img {

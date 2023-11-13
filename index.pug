@@ -1,66 +1,6 @@
 //- Mixins ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+include mixins.pug
 
-mixin vehicle(press, more)
-    - const base = locals.press[press.vehicle]
-    - const article = press.article;
-    - const href = article ? `${base}${article}` : base
-    - const vehicleClass = press.vehicle.toLowerCase().replace(/\s/g, '');
-    - const classes = `vehicle ${vehicleClass} ${more && 'more'}`
-    a(href=href  target="_blank" title=press.title class=classes) #{press.vehicle}
-
-mixin details(category)
-    if category.details
-        .details
-            if category.details.artists
-                dl.artists
-                    dt.artist.detail Artistas: !{" "}
-                    each artist in category.details.artists
-                        dd.artist.info #{artist}
-            if category.details.venue && category.details.date
-                p.date-venue
-                    span.detail #{category.details.date} !{" "}
-                    span.info @
-                    span.detail !{" "} #{category.details.venue}
-            if category.details.press
-                p.press
-                    span.detail Veículo: !{" "}
-                        +vehicle(category.details.press)
-                if category.details.press.more
-                    p.press
-                        span.detail Veja mais em: !{" "}
-                            each extra in category.details.press.more
-                                +vehicle(extra, true)
-
-mixin photos(category)
-    summary.expander(data-emoji=category.emoji)
-        h4.subtitle
-            span #{category.title}
-    +details(category)
-    .gallery
-        ul.scrollable
-            - let count = 0;
-            while count < category.count
-                - count++;
-                - const href = `${category.path}/photo-${count}.webp`;
-                - const img = `${category.path}/photo-${count}.thumb.webp`;
-                li.photo
-                    button.clickable
-                        figure
-                            - const loading = category.open ? 'eager' : 'lazy';
-                            img(src=img data-href=href alt=category.title loading=loading)
-mixin accordion(category)
-    if category.open
-        details.accordion(open)
-            +photos(category)
-    else 
-        details.accordion
-            +photos(category)
-
-mixin gallery(name)
-    - const gallery = locals[name].filter(g => g.count)
-    each category, index in gallery
-        - category.open = index === 0
-        +accordion(category)
 //- Page ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 doctype html
@@ -127,7 +67,11 @@ html(lang="pt-BR")
             section.section.music
                 .wrapper
                     h3.title 🎙 Shows
-                    +gallery('concert')
+                    h4.subtitle.subdivision
+                        span Recentes
+                    +gallery(locals.concert.recent)
+
+                    +archive(locals.concert.archived)
 
             section.section
                 .wrapper 
@@ -142,7 +86,7 @@ html(lang="pt-BR")
             section.section.world
                 .wrapper
                     h3.title 🌎 Cotidiano & Viagens
-                    +gallery('world')
+                    +gallery(locals.world)
 
             section.section
                 .wrapper 
@@ -157,7 +101,7 @@ html(lang="pt-BR")
             section.section.nature
                 .wrapper
                     h3.title 🌱 Natureza & Vida Selvagem
-                    +gallery('nature')
+                    +gallery(locals.nature)
 
             section.section
                 .wrapper
@@ -170,7 +114,7 @@ html(lang="pt-BR")
             section.section.lifestyle
                 .wrapper
                     h3.title 🏋🏼 Esportes & Produtos
-                    +gallery('lifestyle')
+                    +gallery(locals.lifestyle)
 
             section.section#contato
                 .wrapper

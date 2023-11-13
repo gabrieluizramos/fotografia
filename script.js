@@ -54,6 +54,8 @@ const polaroid = {
             polaroid.elements.figure.dataset.alt = polaroid.captions.loading;
         },
         open(href, caption) {
+            document.activeElement.blur();
+
             polaroid.actions.reveal(href, caption);
             polaroid.elements.modal.showModal();
             polaroid.state.open = true;
