@@ -1,6 +1,26 @@
 {
     "recent": [
         {
+            "title": "Primavera Sound",
+            "path": "images/concert/5-boomerang-music/3-primavera-sound",
+            "artists": ["The Hives", "Marisa Monte", "Carly Rae Jepsen", "Beck", "Bad Religion", "The Cure"],
+            "count": 0,
+            "details": {
+                "venue": "Autódromo de Interlagos",
+                "date": "02 e 03/12/2023",
+                "press": {
+                    "vehicle": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-primavera-sound-sp-2023-domingo-03-12-sao-paulo/",
+                    "more": [
+                        {
+                            "vehicle": "Boomerang Music",
+                            "article": "/portfolio_page/fotos-primavera-sound-sp-2023-the-hives-e-marisa-monte-02-12-sao-paulo/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Alter Bridge",
             "path": "images/concert/2-igor-miranda/8-alter-bridge",
             "count": 5,
@@ -21,7 +41,7 @@
             "details": {
                 "artists": ["Machine Gun Kelly", "Swedish House Mafia", "Iza", "Sofi Tukker"],
                 "venue": "Allianz Parque",
-                "date": "04/11/2023 e 05/11/2023",
+                "date": "04 e 05/11/2023",
                 "press": {
                     "vehicle": "Igor Miranda",
                     "title": "GPWeek abraça a diversidade musical em sua segunda edição",
