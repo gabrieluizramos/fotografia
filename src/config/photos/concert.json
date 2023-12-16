@@ -1,6 +1,32 @@
 {
     "recent": [
         {
+            "title": "NX Zero",
+            "path": "images/concert/2-igor-miranda/10-nx-zero",
+            "count": 0,
+            "details": {
+                "venue": "Allianz Parque",
+                "date": "15/12/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "article": "/2023/12/nx-zero-show-sao-paulo-2023-resenha/"
+                }
+            }
+        },
+        {
+            "title": "Uriah Heep",
+            "path": "images/concert/2-igor-miranda/9-uriah-heep",
+            "count": 0,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "10/12/2023",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "article": "/2023/12/uriah-heep-show-sao-paulo-2023-resenha/"
+                }
+            }
+        },
+        {
             "title": "Primavera Sound",
             "path": "images/concert/5-boomerang-music/3-primavera-sound",
             "artists": ["The Hives", "Marisa Monte", "Carly Rae Jepsen", "Beck", "Bad Religion", "The Cure"],
