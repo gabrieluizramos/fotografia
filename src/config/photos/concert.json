@@ -1,6 +1,18 @@
 {
     "recent": [
         {
+            "title": "Titãs",
+            "path": "images/concert/5-boomerang-music/4-titas",
+            "count": 0,
+            "details": {
+                "venue": "Allianz Parque",
+                "date": "21/12/2023",
+                "press": {
+                    "vehicle": "Boomerang Music"
+                }
+            }
+        },
+        {
             "title": "NX Zero",
             "path": "images/concert/2-igor-miranda/10-nx-zero",
             "count": 0,
