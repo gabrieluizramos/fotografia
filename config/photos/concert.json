@@ -15,9 +15,9 @@
         {
             "title": "NX Zero",
             "path": "images/concert/2-igor-miranda/10-nx-zero",
-            "artists": ["Day Limns", "Gloria", "Supercombo", "You Me At Six", "NX Zero"],
             "count": 43,
             "details": {
+                "artists": ["Day Limns", "Gloria", "Supercombo", "You Me At Six", "NX Zero"],
                 "venue": "Allianz Parque",
                 "date": "15/12/2023",
                 "press": {
@@ -42,9 +42,9 @@
         {
             "title": "Primavera Sound",
             "path": "images/concert/5-boomerang-music/3-primavera-sound",
-            "artists": ["The Hives", "Marisa Monte", "Carly Rae Jepsen", "Beck", "Bad Religion", "The Cure"],
             "count": 41,
             "details": {
+                "artists": ["The Hives", "Marisa Monte", "Carly Rae Jepsen", "Beck", "Bad Religion", "The Cure"],
                 "venue": "Autódromo de Interlagos",
                 "date": "02 e 03/12/2023",
                 "press": {
