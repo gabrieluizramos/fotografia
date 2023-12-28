@@ -3,7 +3,7 @@
         {
             "title": "Titãs",
             "path": "images/concert/5-boomerang-music/4-titas",
-            "count": 0,
+            "count": 22,
             "details": {
                 "venue": "Allianz Parque",
                 "date": "21/12/2023",
@@ -15,7 +15,8 @@
         {
             "title": "NX Zero",
             "path": "images/concert/2-igor-miranda/10-nx-zero",
-            "count": 0,
+            "artists": ["Day Limns", "Gloria", "Supercombo", "You Me At Six", "NX Zero"],
+            "count": 43,
             "details": {
                 "venue": "Allianz Parque",
                 "date": "15/12/2023",
@@ -28,7 +29,7 @@
         {
             "title": "Uriah Heep",
             "path": "images/concert/2-igor-miranda/9-uriah-heep",
-            "count": 0,
+            "count": 9,
             "details": {
                 "venue": "Tokio Marine Hall",
                 "date": "10/12/2023",
@@ -42,7 +43,7 @@
             "title": "Primavera Sound",
             "path": "images/concert/5-boomerang-music/3-primavera-sound",
             "artists": ["The Hives", "Marisa Monte", "Carly Rae Jepsen", "Beck", "Bad Religion", "The Cure"],
-            "count": 0,
+            "count": 41,
             "details": {
                 "venue": "Autódromo de Interlagos",
                 "date": "02 e 03/12/2023",
@@ -71,7 +72,9 @@
                     "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "GP Week",
             "path": "images/concert/2-igor-miranda/7-gp-week",
@@ -138,9 +141,7 @@
                     "vehicle": "DownStage"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Marky Ramone",
             "path": "images/concert/2-igor-miranda/6-marky-ramone",
