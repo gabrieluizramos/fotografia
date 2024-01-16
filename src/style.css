@@ -503,6 +503,20 @@
     opacity: 0;
 }
 
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--spacing-double);
+}
+
+.button {
+    background: var(--color-terminal-green);
+    color: var(--color-white);
+    padding: var(--spacing-default);
+    border-radius: var(--radius-half);
+}
+
 @media (max-width: 800px) {
     .greeting {
         text-align: center;
