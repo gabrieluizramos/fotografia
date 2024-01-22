@@ -503,6 +503,109 @@
     opacity: 0;
 }
 
+/* Ebook */
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    background: var(--color-terminal-green);
+    color: var(--color-white);
+    padding: var(--spacing-default);
+    border-radius: var(--radius-half);
+    text-align: center;
+    transition: var(--transition-default);
+    font-size: var(--font-size-medium);
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.ebook .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-double);
+}
+
+.ebook-title {
+    width: 100%;
+}
+
+.ebook-details {
+    width: 65%;
+}
+
+.ebook-cover {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ebook-figure {
+    width: 260px;
+    height: 390px;
+    transform: rotateY(-10deg);
+    transition: var(--transition-default);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ebook-figure:before,
+.ebook-figure:after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: var(--transition-default)
+}
+
+.ebook-figure:before {
+    width: 96%;
+    height: 96%;
+    background: linear-gradient(to right, #a0a0a0, var(--color-post-color));
+    background-size: 2px;
+    background-repeat: repeat-x;
+    z-index: -1;
+    transform: translate(8px, 0);
+}
+
+.ebook-figure:after {
+    width: 97%;
+    height: 97%;
+    z-index: -2;
+    background: #513721;
+    transform: translate(10px, 0);
+    box-shadow: var(--shadow-default);
+}
+
+.ebook-figure:hover {
+    transform: rotateY(-15deg);
+
+}
+
+.ebook-figure:hover:before {
+    transform: translate(13px, 0);
+}
+
+.ebook-figure:hover:after {
+    transform: translate(17px, 0);
+}
+
+.ebook-figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px 0 0 3px;
+}
+
 @media (max-width: 800px) {
     .greeting {
         text-align: center;
@@ -518,5 +621,21 @@
 
     .texts {
         width: initial;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ebook .wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ebook-cover, .ebook-details {
+        width: 100%;
+    }
+
+    .ebook-cover {
+        display: flex;
+        justify-content: center;
     }
 }
