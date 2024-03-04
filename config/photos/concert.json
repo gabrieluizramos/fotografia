@@ -1,6 +1,79 @@
 {
     "recent": [
         {
+            "title": "Tiago Iorc",
+            "path": "images/concert/5-boomerang-music/6-tiago-iorc",
+            "count": 12,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "01/03/2024",
+                "press": {
+                    "vehicle": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
+                }
+            }
+        },
+        {
+            "title": "Rotting Christ",
+            "path": "images/concert/2-igor-miranda/11-rotting-christ",
+            "count": 13,
+            "details": {
+                "venue": "Carioca Club",
+                "date": "29/02/2024",
+                "press": {
+                    "vehicle": "Igor Miranda",
+                    "article": "/2024/03/rotting-christ-show-sao-paulo-2024-resenha/"
+                }
+            }
+        },
+        {
+            "title": "Comeback Kid",
+            "artists": ["Never Look Back", "The Last Station", "Comeback Kid"],
+            "path": "images/concert/4-downstage/5-comeback-kid",
+            "count": 23,
+            "details": {
+                "venue": "Hangar 110",
+                "date": "24/02/2024",
+                "press": {
+                    "vehicle": "DownStage",
+                    "article": "/eventos/comeback-kid-sao-paulo/"
+                }
+            }
+        },
+        {
+            "title": "The Ghost Inside",
+            "path": "images/concert/1-independente/5-the-ghost-inside",
+            "count": 35,
+            "details": {
+                "venue": "Vip Station",
+                "date": "18/02/2024"
+            }
+        },
+        {
+            "title": "Blanco White",
+            "path": "images/concert/5-boomerang-music/5-blanco-white",
+            "count": 7,
+            "details": {
+                "venue": "Teatro Bravos",
+                "date": "01/02/2024",
+                "press": {
+                    "vehicle": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-blanco-white-01-02-teatro-bravos-sp/"
+                }
+            }
+        },
+        {
+            "title": "Underoath",
+            "path": "images/concert/1-independente/4-underoath",
+            "count": 33,
+            "details": {
+                "venue": "Vip Station",
+                "date": "27/01/2024"
+            }
+        }
+    ],
+    "archived": [
+        {
             "title": "Titãs",
             "path": "images/concert/5-boomerang-music/4-titas",
             "count": 22,
@@ -73,9 +146,7 @@
                     "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "GP Week",
             "path": "images/concert/2-igor-miranda/7-gp-week",
