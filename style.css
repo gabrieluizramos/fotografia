@@ -211,65 +211,70 @@
     color: var(--color-terminal-yellow);
 }
 
-.vehicles-list {
+.outlets-list {
     font-size: var(--font-size-small);
     padding-left: var(--spacing-half);
 }
 
-.vehicles-item {
+.outlets-item {
     display: inline;
 }
 
-.vehicles-item:not(:first-child):before {
+.outlets-item:not(:first-child):before {
     content: ', ';
 }
 
-.vehicles-item:last-child:before {
+.outlets-item:last-child:before {
     content: 'e ';
     margin-left: var(--spacing-half);
 }
 
-.vehicles-item:last-child:after {
+.outlets-item:last-child:after {
     content: '.';
 }
 
-.vehicle {
+.outlet {
     padding: 0 var(--spacing-half);
     border-radius: var(--radius-default);
     color: var(--color-black);
     display: inline-block;
     font-weight: bold;
-}
-
-.vehicle.igormiranda {
-    background: #e84c3d;
-}
-
-.vehicle.sonoridadeunderground {
-    background: #f8a002;
-}
-
-.vehicle.downstage {
-    background: #d691ac;
-}
-
-.vehicle.boomerangmusic {
-    background: #ac5200;
-}
-
-.vehicle.hedflow {
     background: #ffffff;
 }
 
-.vehicle:not(.more):hover {
-    color: var(--color-white);
+.outlet.instagram {
+    background: #f42a5c;
 }
 
-.vehicle.hedflow:hover {
-    color: initial;
+.outlet.facebook {
+    background: #0a65ff;
 }
 
-.vehicle.more:not(:last-child) {
+.outlet.twitter {
+    background: #179df1;
+}
+
+.outlet.igormiranda {
+    background: #e84c3d;
+}
+
+.outlet.sonoridadeunderground {
+    background: #f8a002;
+}
+
+.outlet.downstage {
+    background: #d691ac;
+}
+
+.outlet.boomerangmusic {
+    background: #ac5200;
+}
+
+.outlet:hover{
+    opacity: 0.8;
+}
+
+.outlet.more:not(:last-child) {
     margin-right: var(--spacing-half);
 }
 

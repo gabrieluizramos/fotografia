@@ -1,10 +1,10 @@
-mixin vehicle(press, more)
-    - const base = locals.press[press.vehicle]
-    - const article = press.article;
+mixin outlet(outlet, more)
+    - let base = locals[outlet.category][outlet.name] || locals[outlet.category][outlet.network] || '';
+    - const article = outlet.article;
     - const href = article ? `${base}${article}` : base
-    - const vehicleClass = press.vehicle.toLowerCase().replace(/\s/g, '');
-    - const classes = `vehicle ${vehicleClass} ${more && 'more'}`
-    a(href=href  target="_blank" title=press.title class=classes) #{press.vehicle}
+    - const outletClass = outlet.category === 'social' ? outlet.network : outlet.name.toLowerCase().replace(/\s/g, '');
+    - const classes = ['outlet', outletClass, more && 'more'].filter(c => c).join(' ');
+    a(href=href  target="_blank" title=press.title class=classes) #{outlet.name}
 
 mixin details(category)
     if category.details
@@ -19,16 +19,15 @@ mixin details(category)
                     span.detail #{category.details.date} !{" "}
                     span.info @
                     span.detail !{" "} #{category.details.venue}
-            if category.details.press
+            if category.details.outlet
                 p.press
-                    - const label = category.details.press.article ? 'Leia a matéria completa: ' : 'Veículo: ';
-                    span.detail #{label}
-                    +vehicle(category.details.press)
-                if category.details.press.more
+                    span.detail Cobertura:
+                    +outlet(category.details.outlet)
+                if category.details.outlet.more
                     p.press
                         span.detail Veja mais em: !{" "}
-                            each extra in category.details.press.more
-                                +vehicle(extra, true)
+                            each extra in category.details.outlet.more
+                                +outlet(extra, true)
 
 mixin photos(category)
     summary.expander(data-emoji=category.emoji)
