@@ -1,6 +1,19 @@
 {
     "recent": [
         {
+            "title": "Tarja",
+            "path": "images/concert/5-boomerang-music/8-tarja",
+            "count": 0,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "08/03/2024",
+                "outlet": {
+                    "category": "press",
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
             "title": "Gavin James",
             "path": "images/concert/5-boomerang-music/7-gavin-james",
             "count": 7,
@@ -30,6 +43,18 @@
                             "network": "instagram",
                             "name": "@bambam1a",
                             "article": "/p/C4MfedcP2xS/"
+                        },
+                        {
+                            "category": "social",
+                            "network": "instagram",
+                            "name": "@bambamxabyss",
+                            "article": "/p/C4Mj4wNRdBN/"
+                        },
+                        {
+                            "category": "social",
+                            "network": "instagram",
+                            "name": "@bambamxabyss",
+                            "article": "/p/C4Mj-ijRQJv/"
                         }
                     ]
                 }
