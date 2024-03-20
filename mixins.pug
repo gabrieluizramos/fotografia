@@ -21,7 +21,7 @@ mixin details(category)
                     span.detail !{" "} #{category.details.venue}
             if category.details.outlet
                 p.press
-                    span.detail Cobertura:
+                    span.detail Cobertura: !{" "}
                     +outlet(category.details.outlet)
                 if category.details.outlet.more
                     p.press

@@ -1,6 +1,21 @@
 {
     "recent": [
         {
+            "title": "Tarja",
+            "artists": ["Marko Hietala", "Tarja Turunen"],
+            "path": "images/concert/5-boomerang-music/8-tarja",
+            "count": 18,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "08/03/2024",
+                "outlet": {
+                    "category": "press",
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/resenha-e-fotos-show-living-the-dream-the-hits-tour-2024-tarja-e-marko-hietala-08-03/"
+                }
+            }
+        },
+        {
             "title": "Gavin James",
             "path": "images/concert/5-boomerang-music/7-gavin-james",
             "count": 7,
@@ -9,7 +24,8 @@
                 "date": "06/03/2024",
                 "outlet": {
                     "category": "press",
-                    "name": "Boomerang Music"
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/51017/"
                 }
             }
         },
@@ -30,6 +46,18 @@
                             "network": "instagram",
                             "name": "@bambam1a",
                             "article": "/p/C4MfedcP2xS/"
+                        },
+                        {
+                            "category": "social",
+                            "network": "instagram",
+                            "name": "@bambamxabyss",
+                            "article": "/p/C4Mj4wNRdBN/"
+                        },
+                        {
+                            "category": "social",
+                            "network": "instagram",
+                            "name": "@bambamxabyss",
+                            "article": "/p/C4Mj-ijRQJv/"
                         }
                     ]
                 }
@@ -112,6 +140,12 @@
                             "network": "instagram",
                             "name": "@jonathanvigil",
                             "article": "/p/C3nmn5XLzC5/"
+                        },
+                        {
+                            "category": "social",
+                            "network": "instagram",
+                            "name": "@gigmusicoficial",
+                            "article": "/p/C3lwTEAAl1L/"
                         }
                     ]
                 }
