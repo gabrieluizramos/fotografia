@@ -67,11 +67,23 @@ html(lang="pt-BR")
             section.section.music
                 .wrapper
                     h3.title 🎙 Shows
+                     -
+                        const concerts = Object.entries(concert).reduce((concerts, [name, values]) => {
+                            const rest = values.filter(c => !c.highlighted);
+                            const currentHighlights = values.filter(c => c.highlighted);
+                            let highlights = concerts.highlights ? [...concerts.highlights, ...currentHighlights] : currentHighlights;
+
+                            return { ...concerts, [name]: rest, highlights}
+                        }, {})
+                    h4.subtitle.subdivision
+                        span Destaques ⭐️
+                    +gallery(concerts.highlights)
+
                     h4.subtitle.subdivision
                         span Recentes
-                    +gallery(locals.concert.recent)
+                    +gallery(concerts.recent, true)
 
-                    +archive(locals.concert.archived)
+                    +archive(concerts.archived)
 
                 hr
                 div.section.ebook

@@ -190,7 +190,8 @@
     content: attr(data-emoji) !important;
 }
 
-.accordion.archive {
+.accordion.archive,
+.accordion + .subtitle.subdivision {
     margin-top: var(--spacing-double);
 }
 

@@ -1,6 +1,20 @@
 {
     "recent": [
         {
+            "title": "Radwimps",
+            "highlighted": true,
+            "path": "images/concert/6-dreamers-entertainment/3-radwimps",
+            "count": 10,
+            "details": {
+                "venue": "Terra SP",
+                "date": "21/03/2024",
+                "outlet": {
+                    "category": "producers",
+                    "name": "Dreamers Entertainment"
+                }
+            }
+        },
+        {
             "title": "Tarja",
             "artists": ["Marko Hietala", "Tarja Turunen"],
             "path": "images/concert/5-boomerang-music/8-tarja",
@@ -31,6 +45,7 @@
         },
         {
             "title": "Bambam",
+            "highlighted": true,
             "path": "images/concert/7-gig-music/1-bambam",
             "count": 17,
             "details": {
@@ -105,9 +120,12 @@
                     "article": "/eventos/comeback-kid-sao-paulo/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "The Ghost Inside",
+            "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/2-the-ghost-inside",
             "count": 35,
             "details": {
@@ -167,6 +185,7 @@
         },
         {
             "title": "Underoath",
+            "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/1-underoath",
             "count": 33,
             "details": {
@@ -203,9 +222,7 @@
                     ]
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Titãs",
             "path": "images/concert/5-boomerang-music/4-titas",
@@ -273,6 +290,7 @@
         },
         {
             "title": "Alter Bridge",
+            "highlighted": true,
             "path": "images/concert/2-igor-miranda/8-alter-bridge",
             "count": 5,
             "details": {
