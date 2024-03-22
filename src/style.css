@@ -112,12 +112,16 @@
     content: '';
 }
 
-.accordion.archive > .expander .subtitle span:after {
-    content: 'mais';
+.accordion.archive > .expander .subtitle .check:after {
+    content: 'mais 👈';
 }
 
-.accordion.archive[open] > .expander .subtitle span:after {
-    content: 'menos';
+.accordion.archive[open] > .expander .subtitle .check:after {
+    content: 'menos 👇';
+}
+
+.check + .point {
+    margin-left: var(--spacing-default);
 }
 
 .about {
