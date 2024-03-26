@@ -10,7 +10,15 @@
                 "date": "21/03/2024",
                 "outlet": {
                     "category": "producers",
-                    "name": "Dreamers Entertainment"
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C452DoOOVAM/",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Tramamos",
+                            "article": "/radwimps-entrega-uma-noite-epica-de-rock-e-emocao-em-sao-paulo/"
+                        }
+                    ]
                 }
             }
         },

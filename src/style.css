@@ -275,6 +275,10 @@
     background: #ac5200;
 }
 
+.outlet.tramamos {
+    background: #ff3a1c;
+}
+
 .outlet:hover{
     opacity: 0.8;
 }
