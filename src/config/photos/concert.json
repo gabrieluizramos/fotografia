@@ -1,6 +1,27 @@
 {
     "recent": [
         {
+            "title": "Black Veil Brides",
+            "highlighted": true,
+            "path": "images/concert/6-dreamers-entertainment/4-black-veil-brides",
+            "count": 0,
+            "details": {
+                "venue": "Terra SP",
+                "date": "26/03/2024",
+                "outlet": {
+                    "category": "producers",
+                    "name": "Dreamers Entertainment",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Igor Miranda",
+                            "article": "/2024/03/black-veil-brides-show-sao-paulo-2024-resenha/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Radwimps",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/3-radwimps",
@@ -11,7 +32,14 @@
                 "outlet": {
                     "category": "producers",
                     "name": "Dreamers Entertainment",
-                    "article": "/p/C452DoOOVAM/"
+                    "article": "/p/C452DoOOVAM/",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Tramamos",
+                            "article": "/radwimps-entrega-uma-noite-epica-de-rock-e-emocao-em-sao-paulo/"
+                        }
+                    ]
                 }
             }
         },
