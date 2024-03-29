@@ -4,13 +4,14 @@
             "title": "Black Veil Brides",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/4-black-veil-brides",
-            "count": 0,
+            "count": 24,
             "details": {
                 "venue": "Terra SP",
                 "date": "26/03/2024",
                 "outlet": {
                     "category": "producers",
                     "name": "Dreamers Entertainment",
+                    "article": "/p/C5HEPACu2KC/",
                     "more": [
                         {
                             "category": "press",
@@ -23,7 +24,6 @@
         },
         {
             "title": "Radwimps",
-            "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/3-radwimps",
             "count": 10,
             "details": {
@@ -74,7 +74,6 @@
         },
         {
             "title": "Bambam",
-            "highlighted": true,
             "path": "images/concert/7-gig-music/1-bambam",
             "count": 17,
             "details": {
