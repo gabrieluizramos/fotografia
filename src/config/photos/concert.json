@@ -119,7 +119,9 @@
                     "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Rotting Christ",
             "path": "images/concert/2-igor-miranda/11-rotting-christ",
@@ -148,9 +150,7 @@
                     "article": "/eventos/comeback-kid-sao-paulo/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "The Ghost Inside",
             "highlighted": true,
