@@ -78,6 +78,10 @@
 .text {
     line-height: 1.7;
 }
+.count {
+    font-size: var(--font-size-smaller);
+    margin-top: var(--spacing-double);
+}
 .text:not(:last-child),
 .section .title {
     margin-bottom: var(--spacing-default);
