@@ -78,6 +78,10 @@
 .text {
     line-height: 1.7;
 }
+.count {
+    font-size: var(--font-size-smaller);
+    margin-top: var(--spacing-double);
+}
 .text:not(:last-child),
 .section .title {
     margin-bottom: var(--spacing-default);
@@ -112,12 +116,16 @@
     content: '';
 }
 
-.accordion.archive > .expander .subtitle span:after {
-    content: 'mais';
+.accordion.archive > .expander .subtitle .check:after {
+    content: 'mais 👈';
 }
 
-.accordion.archive[open] > .expander .subtitle span:after {
-    content: 'menos';
+.accordion.archive[open] > .expander .subtitle .check:after {
+    content: 'menos 👇';
+}
+
+.check + .point {
+    margin-left: var(--spacing-default);
 }
 
 .about {
@@ -269,6 +277,10 @@
 
 .outlet.boomerangmusic {
     background: #ac5200;
+}
+
+.outlet.tramamos {
+    background: #ff3a1c;
 }
 
 .outlet:hover{

@@ -1,16 +1,45 @@
 {
     "recent": [
         {
-            "title": "Radwimps",
+            "title": "Black Veil Brides",
             "highlighted": true,
-            "path": "images/concert/6-dreamers-entertainment/3-radwimps",
+            "path": "images/concert/6-dreamers-entertainment/3-black-veil-brides",
+            "count": 24,
+            "details": {
+                "venue": "Terra SP",
+                "date": "26/03/2024",
+                "outlet": {
+                    "category": "producers",
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C5HEPACu2KC/",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Igor Miranda",
+                            "article": "/2024/03/black-veil-brides-show-sao-paulo-2024-resenha/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Radwimps",
+            "path": "images/concert/6-dreamers-entertainment/2-radwimps",
             "count": 10,
             "details": {
                 "venue": "Terra SP",
                 "date": "21/03/2024",
                 "outlet": {
                     "category": "producers",
-                    "name": "Dreamers Entertainment"
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C452DoOOVAM/",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Tramamos",
+                            "article": "/radwimps-entrega-uma-noite-epica-de-rock-e-emocao-em-sao-paulo/"
+                        }
+                    ]
                 }
             }
         },
@@ -45,7 +74,6 @@
         },
         {
             "title": "Bambam",
-            "highlighted": true,
             "path": "images/concert/7-gig-music/1-bambam",
             "count": 17,
             "details": {
@@ -91,7 +119,9 @@
                     "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Rotting Christ",
             "path": "images/concert/2-igor-miranda/11-rotting-christ",
@@ -120,13 +150,11 @@
                     "article": "/eventos/comeback-kid-sao-paulo/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "The Ghost Inside",
             "highlighted": true,
-            "path": "images/concert/6-dreamers-entertainment/2-the-ghost-inside",
+            "path": "images/concert/6-dreamers-entertainment/1-the-ghost-inside",
             "count": 35,
             "details": {
                 "venue": "Vip Station",
@@ -186,14 +214,12 @@
         {
             "title": "Underoath",
             "highlighted": true,
-            "path": "images/concert/6-dreamers-entertainment/1-underoath",
+            "path": "images/concert/1-independente/3-underoath",
             "count": 33,
             "details": {
                 "venue": "Vip Station",
                 "date": "27/01/2024",
                 "outlet": {
-                    "category": "producers",
-                    "name": "Dreamers Entertainment",
                     "more": [
                         {
                             "category": "social",
@@ -577,7 +603,7 @@
         },
         {
             "title": "Bring Me The Horizon",
-            "path": "images/concert/1-independente/3-bring-me-the-horizon",
+            "path": "images/concert/1-independente/2-bring-me-the-horizon",
             "count": 6,
             "details": {
                 "venue": "Vibra SP",
@@ -586,18 +612,13 @@
         },
         {
             "title": "While She Sleeps (Vomit3d Party)",
-            "path": "images/concert/1-independente/2-while-she-sleeps",
+            "path": "images/concert/1-independente/1-while-she-sleeps",
             "count": 12,
             "details": {
                 "artists": ["Axty", "While She Sleeps"],
                 "venue": "VIP Station",
                 "date": "26/11/2022"
             }
-        },
-        {
-            "title": "Fresno & Scalene",
-            "path": "images/concert/1-independente/fresno-e-scalene",
-            "count": 5
         }
     ]
 }

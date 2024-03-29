@@ -51,15 +51,17 @@ html(lang="pt-BR")
 
                             p.text Sentir a energia de uma música que ecoa em meio à entrega de um artista ao público quando está sobre palco e sublimar esses momentos em algo mais concreto, palpável e visual é uma experiência única e até difícil de descrever.
 
-                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. E é nessa jornada junto aos palcos que já tive a honra de trabalhar e ter minhas fotos utilizadas por alguns veículos de imprensa, bandas e produtoras, como:
-                                - const outlets = [...Object.entries(locals.press), ...Object.entries(locals.producers)]
-                                span.outlets-list
-                                    each outlet in outlets
-                                        span.outlets-item
-                                            - const [name, url] = outlet
-                                            - const outletClass = name.toLowerCase().replace(/\s/g, '');
-                                            - const classes = `outlet ${outletClass}`
-                                            a(class=classes href=url target="_blank") #{name}
+                            p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. É nessa jornada junto aos palcos que já tive a honra de trabalhar e ter minhas fotos utilizadas por alguns veículos de imprensa, bandas e produtoras. Espero que goste do meu trabalho!
+
+                            //- p.text Se tem algo que me fascina, é isso: conseguir combinar em um único artefato essas duas expressões artísticas, a arte de ver e a arte de ouvir. E é nessa jornada junto aos palcos que já tive a honra de trabalhar e ter minhas fotos utilizadas por alguns veículos de imprensa, bandas e produtoras, como:
+                            //-     - const outlets = [...Object.entries(locals.press), ...Object.entries(locals.producers)]
+                            //-     span.outlets-list
+                            //-         each outlet in outlets
+                            //-             span.outlets-item
+                            //-                 - const [name, url] = outlet
+                            //-                 - const outletClass = name.toLowerCase().replace(/\s/g, '');
+                            //-                 - const classes = `outlet ${outletClass}`
+                            //-                 a(class=classes href=url target="_blank") #{name}
 
                         figure.avatar
                             img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos" loading="lazy")
@@ -72,18 +74,28 @@ html(lang="pt-BR")
                             const rest = values.filter(c => !c.highlighted);
                             const currentHighlights = values.filter(c => c.highlighted);
                             let highlights = concerts.highlights ? [...concerts.highlights, ...currentHighlights] : currentHighlights;
+                            let count = concerts.count || 0;
+                            count += currentHighlights.length + rest.length
 
-                            return { ...concerts, [name]: rest, highlights}
+                            return {
+                                ...concerts,
+                                [name]: rest,
+                                highlights,
+                                count,
+                            }
                         }, {})
                     h4.subtitle.subdivision
                         span Destaques ⭐️
                     +gallery(concerts.highlights)
 
                     h4.subtitle.subdivision
-                        span Recentes
+                        span Recentes 🆕
                     +gallery(concerts.recent, true)
 
                     +archive(concerts.archived)
+
+                    .count
+                        p.text.count Já são !{concerts.count} eventos cobertos e seguimos contando
 
                 hr
                 div.section.ebook

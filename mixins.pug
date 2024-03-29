@@ -20,9 +20,10 @@ mixin details(category)
                     span.info @
                     span.detail !{" "} #{category.details.venue}
             if category.details.outlet
-                p.press
-                    span.detail Cobertura: !{" "}
-                    +outlet(category.details.outlet)
+                if category.details.outlet.category
+                    p.press
+                        span.detail Cobertura: !{" "}
+                        +outlet(category.details.outlet)
                 if category.details.outlet.more
                     p.press
                         span.detail Veja mais em: !{" "}
@@ -65,5 +66,5 @@ mixin archive(items)
     details.accordion.archive
         summary.expander.subdivision
             h4.subtitle.subdivision
-                span Ver        
+                span.check Ver    
         +gallery(items, true)
