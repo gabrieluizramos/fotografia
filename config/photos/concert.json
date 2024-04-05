@@ -1,6 +1,29 @@
 {
     "recent": [
         {
+            "title": "Russian Circles",
+            "highlighted": true,
+            "path": "images/concert/6-dreamers-entertainment/4-russian-circles",
+            "count": 24,
+            "details": {
+                "artists": ["E A Terra Nunca Me Pareceu Tão Distante", "Russian Circles"],
+                "venue": "Cine Jóia",
+                "date": "03/04/2024",
+                "outlet": {
+                    "category": "producers",
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C5WwUD1uxmZ/",
+                    "more": [
+                        {
+                            "category": "press",
+                            "name": "Igor Miranda",
+                            "article": "/2024/04/russian-circles-show-sao-paulo-2024-resenha/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Black Veil Brides",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/3-black-veil-brides",
@@ -45,10 +68,10 @@
         },
         {
             "title": "Tarja",
-            "artists": ["Marko Hietala", "Tarja Turunen"],
             "path": "images/concert/5-boomerang-music/8-tarja",
             "count": 18,
             "details": {
+                "artists": ["Marko Hietala", "Tarja Turunen"],
                 "venue": "Tokio Marine Hall",
                 "date": "08/03/2024",
                 "outlet": {
@@ -138,10 +161,10 @@
         },
         {
             "title": "Comeback Kid",
-            "artists": ["Never Look Back", "The Last Station", "Comeback Kid"],
             "path": "images/concert/4-downstage/5-comeback-kid",
             "count": 23,
             "details": {
+                "artists": ["Never Look Back", "The Last Station", "Comeback Kid"],
                 "venue": "Hangar 110",
                 "date": "24/02/2024",
                 "outlet": {
