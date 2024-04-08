@@ -1,6 +1,20 @@
 {
     "recent": [
         {
+            "title": "Thursday",
+            "path": "images/concert/3-sonoridade-underground/3-thursday",
+            "count": 21,
+            "details": {
+                "artists": ["Tim Kasher", "Thursday"],
+                "venue": "Carioca Club",
+                "date": "06/04/2024",
+                "outlet": {
+                    "category": "press",
+                    "name": "Sonoridade Underground"
+                }
+            }
+        },
+        {
             "title": "Russian Circles",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/4-russian-circles",
