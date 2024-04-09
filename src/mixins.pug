@@ -4,7 +4,7 @@ mixin outlet(outlet, more)
     - const href = article ? `${base}${article}` : base
     - const outletClass = outlet.category === 'social' ? outlet.network : outlet.name.toLowerCase().replace(/\s/g, '');
     - const classes = ['outlet', outletClass, more && 'more'].filter(c => c).join(' ');
-    a(href=href  target="_blank" title=press.title class=classes) #{outlet.name}
+    a(href=href  target="_blank" title=outlet.title class=classes) #{outlet.name}
 
 mixin details(category)
     if category.details

@@ -11,6 +11,7 @@
                 "outlet": {
                     "category": "press",
                     "name": "Sonoridade Underground",
+                    "title": "Thursday faz show carismático e explosivo em sua primeira passagem pelo Brasil",
                     "article": "/2024/04/08/thursday-faz-show-carismatico-e-explosivo-em-sua-primeira-passagem-pelo-brasil/"
                 }
             }
@@ -32,11 +33,13 @@
                         {
                             "category": "press",
                             "name": "Igor Miranda",
+                            "title": "SEM PALAVRAS: Russian Circles cativa público em São Paulo com muito peso",
                             "article": "/2024/04/russian-circles-show-sao-paulo-2024-resenha/"
                         },
                         {
                             "category": "press",
                             "name": "Sonoridade Underground",
+                            "title": "Aula de post metal, riffs marcantes, e a climática do Russian Circles, encantam público em São Paulo",
                             "article": "/2024/04/08/aula-de-post-metal-riffs-marcantes-e-a-climatica-do-russian-circles-encantam-publico-em-sao-paulo/"
                         }
                     ]
@@ -59,6 +62,7 @@
                         {
                             "category": "press",
                             "name": "Igor Miranda",
+                            "title": "Black Veil Brides lota Terra SP para breve encontro com público brasileiro",
                             "article": "/2024/03/black-veil-brides-show-sao-paulo-2024-resenha/"
                         }
                     ]
@@ -80,6 +84,7 @@
                         {
                             "category": "press",
                             "name": "Tramamos",
+                            "title": "RADWIMPS entrega uma noite épica de rock e emoção em São Paulo",
                             "article": "/radwimps-entrega-uma-noite-epica-de-rock-e-emocao-em-sao-paulo/"
                         }
                     ]
@@ -175,6 +180,7 @@
                 "outlet": {
                     "category": "press",
                     "name": "Igor Miranda",
+                    "title": "Rotting Christ celebra 35 anos de carreira sem se prender ao passado em SP",
                     "article": "/2024/03/rotting-christ-show-sao-paulo-2024-resenha/"
                 }
             }
@@ -190,6 +196,7 @@
                 "outlet": {
                     "category": "press",
                     "name": "DownStage",
+                    "title": "Comeback Kid no Hangar 110: suor, stage dives e uma aula de hardcore",
                     "article": "/eventos/comeback-kid-sao-paulo/"
                 }
             }
@@ -317,6 +324,7 @@
                 "outlet": {
                     "category": "press",
                     "name": "Igor Miranda",
+                    "title": "Geração emo ganha de goleada: NX Zero repassa carreira em Allianz entupido",
                     "article": "/2023/12/nx-zero-show-sao-paulo-2023-resenha/"
                 }
             }
@@ -331,6 +339,7 @@
                 "outlet": {
                     "category": "press",
                     "name": "Igor Miranda",
+                    "title": "Uriah Heep leva público de São Paulo a uma viagem no tempo",
                     "article": "/2023/12/uriah-heep-show-sao-paulo-2023-resenha/"
                 }
             }
