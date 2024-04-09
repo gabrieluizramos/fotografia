@@ -1,8 +1,8 @@
 mixin outlet(outlet, more)
-    - let base = locals[outlet.category][outlet.name] || locals[outlet.category][outlet.network] || '';
+    - let base = locals.outlet[outlet.name] || locals.outlet[outlet.network] || '';
     - const article = outlet.article;
     - const href = article ? `${base}${article}` : base
-    - const outletClass = outlet.category === 'social' ? outlet.network : outlet.name.toLowerCase().replace(/\s/g, '');
+    - const outletClass = outlet.social ? outlet.network : outlet.name.toLowerCase().replace(/\s/g, '');
     - const classes = ['outlet', outletClass, more && 'more'].filter(c => c).join(' ');
     a(href=href  target="_blank" title=outlet.title class=classes) #{outlet.name}
 
@@ -20,12 +20,12 @@ mixin details(category)
                     span.info @
                     span.detail !{" "} #{category.details.venue}
             if category.details.outlet
-                if category.details.outlet.category
-                    p.press
+                if category.details.outlet.name
+                    p
                         span.detail Fotos para: !{" "}
                         +outlet(category.details.outlet)
                 if category.details.outlet.more
-                    p.press
+                    p
                         span.detail Veja mais em: !{" "}
                             each extra in category.details.outlet.more
                                 +outlet(extra, true)

@@ -9,7 +9,6 @@
                 "venue": "Carioca Club",
                 "date": "06/04/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Sonoridade Underground",
                     "title": "Thursday faz show carismático e explosivo em sua primeira passagem pelo Brasil",
                     "article": "/2024/04/08/thursday-faz-show-carismatico-e-explosivo-em-sua-primeira-passagem-pelo-brasil/"
@@ -26,18 +25,15 @@
                 "venue": "Cine Jóia",
                 "date": "03/04/2024",
                 "outlet": {
-                    "category": "producers",
                     "name": "Dreamers Entertainment",
                     "article": "/p/C5WwUD1uxmZ/",
                     "more": [
                         {
-                            "category": "press",
                             "name": "Igor Miranda",
                             "title": "SEM PALAVRAS: Russian Circles cativa público em São Paulo com muito peso",
                             "article": "/2024/04/russian-circles-show-sao-paulo-2024-resenha/"
                         },
                         {
-                            "category": "press",
                             "name": "Sonoridade Underground",
                             "title": "Aula de post metal, riffs marcantes, e a climática do Russian Circles, encantam público em São Paulo",
                             "article": "/2024/04/08/aula-de-post-metal-riffs-marcantes-e-a-climatica-do-russian-circles-encantam-publico-em-sao-paulo/"
@@ -55,12 +51,10 @@
                 "venue": "Terra SP",
                 "date": "26/03/2024",
                 "outlet": {
-                    "category": "producers",
                     "name": "Dreamers Entertainment",
                     "article": "/p/C5HEPACu2KC/",
                     "more": [
                         {
-                            "category": "press",
                             "name": "Igor Miranda",
                             "title": "Black Veil Brides lota Terra SP para breve encontro com público brasileiro",
                             "article": "/2024/03/black-veil-brides-show-sao-paulo-2024-resenha/"
@@ -77,12 +71,10 @@
                 "venue": "Terra SP",
                 "date": "21/03/2024",
                 "outlet": {
-                    "category": "producers",
                     "name": "Dreamers Entertainment",
                     "article": "/p/C452DoOOVAM/",
                     "more": [
                         {
-                            "category": "press",
                             "name": "Tramamos",
                             "title": "RADWIMPS entrega uma noite épica de rock e emoção em São Paulo",
                             "article": "/radwimps-entrega-uma-noite-epica-de-rock-e-emocao-em-sao-paulo/"
@@ -100,7 +92,6 @@
                 "venue": "Tokio Marine Hall",
                 "date": "08/03/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/resenha-e-fotos-show-living-the-dream-the-hits-tour-2024-tarja-e-marko-hietala-08-03/"
                 }
@@ -114,7 +105,6 @@
                 "venue": "Bar Alto",
                 "date": "06/03/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/51017/"
                 }
@@ -128,24 +118,23 @@
                 "venue": "Vibra SP",
                 "date": "05/03/2024",
                 "outlet": {
-                    "category": "producers",
                     "name": "Gig Music",
                     "article": "/p/C4KhlF5uI5u/",
                     "more": [
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@bambam1a",
                             "article": "/p/C4MfedcP2xS/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@bambamxabyss",
                             "article": "/p/C4Mj4wNRdBN/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@bambamxabyss",
                             "article": "/p/C4Mj-ijRQJv/"
@@ -162,7 +151,6 @@
                 "venue": "Tokio Marine Hall",
                 "date": "01/03/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
                 }
@@ -178,7 +166,6 @@
                 "venue": "Carioca Club",
                 "date": "29/02/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Rotting Christ celebra 35 anos de carreira sem se prender ao passado em SP",
                     "article": "/2024/03/rotting-christ-show-sao-paulo-2024-resenha/"
@@ -194,7 +181,6 @@
                 "venue": "Hangar 110",
                 "date": "24/02/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "DownStage",
                     "title": "Comeback Kid no Hangar 110: suor, stage dives e uma aula de hardcore",
                     "article": "/eventos/comeback-kid-sao-paulo/"
@@ -210,35 +196,34 @@
                 "venue": "Vip Station",
                 "date": "18/02/2024",
                 "outlet": {
-                    "category": "producers",
                     "name": "Dreamers Entertainment",
                     "more": [
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@thejimriley",
                             "article": "/p/C3iYC4MuBlw/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@zachjayjohnson",
                             "article": "/p/C3k1w3Juzk5/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@illgrip",
                             "article": "/p/C3lza-7Rp5q/?img_index=9"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@jonathanvigil",
                             "article": "/p/C3nmn5XLzC5/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@gigmusicoficial",
                             "article": "/p/C3lwTEAAl1L/"
@@ -255,7 +240,6 @@
                 "venue": "Teatro Bravos",
                 "date": "01/02/2024",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/fotos-show-blanco-white-01-02-teatro-bravos-sp/"
                 }
@@ -272,25 +256,25 @@
                 "outlet": {
                     "more": [
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@underoathband",
                             "article": "/p/C20lI_ogI1k/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@wschamberlain",
                             "article": "/p/C20WBPEJpTu/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@chrisunderoath",
                             "article": "/p/C2qDvf8OIiQ/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "twitter",
                             "name": "@underoathband",
                             "article": "/UnderoathBand/status/1753185308139499753"
@@ -307,7 +291,6 @@
                 "venue": "Allianz Parque",
                 "date": "21/12/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/fotos-show-encontro-pra-dizer-adeus-titas-21-12-allianz-parque-sao-paulo/"
                 }
@@ -322,7 +305,6 @@
                 "venue": "Allianz Parque",
                 "date": "15/12/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Geração emo ganha de goleada: NX Zero repassa carreira em Allianz entupido",
                     "article": "/2023/12/nx-zero-show-sao-paulo-2023-resenha/"
@@ -337,7 +319,6 @@
                 "venue": "Tokio Marine Hall",
                 "date": "10/12/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Uriah Heep leva público de São Paulo a uma viagem no tempo",
                     "article": "/2023/12/uriah-heep-show-sao-paulo-2023-resenha/"
@@ -353,12 +334,10 @@
                 "venue": "Autódromo de Interlagos",
                 "date": "02 e 03/12/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/fotos-primavera-sound-sp-2023-domingo-03-12-sao-paulo/",
                     "more": [
                         {
-                            "category": "press",
                             "name": "Boomerang Music",
                             "article": "/portfolio_page/fotos-primavera-sound-sp-2023-the-hives-e-marisa-monte-02-12-sao-paulo/"
                         }
@@ -375,37 +354,36 @@
                 "venue": "Espaço Unimed",
                 "date": "08/11/1023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Alter Bridge faz show tecnicamente preciso em São Paulo",
                     "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/",
                     "more": [
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@officialalterbridge",
                             "article": "/p/Czd_yuTOosA/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@officialmyleskennedy",
                             "article": "/p/CzeAM_QOpRu/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "instagram",
                             "name": "@flip_drums",
                             "article": "/p/CzeAWWFOGui/"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "facebook",
                             "name": "@alterbridge",
                             "article": "/alterbridge/posts/pfbid0NNH5c5cUK8TbAtyfCnzjHiGppWUEvhuMwE5ryjqTgdy1tnYuxJkRodKqZca5KgTVl"
                         },
                         {
-                            "category": "social",
+                            "social": true,
                             "network": "twitter",
                             "name": "@alterbridge",
                             "article": "/alterbridge/status/1723048714074226762"
@@ -423,20 +401,17 @@
                 "venue": "Allianz Parque",
                 "date": "04 e 05/11/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "GPWeek abraça a diversidade musical em sua segunda edição",
                     "article": "/2023/11/gpweek-2023-resenha/",
                     "more": [
                         {
                             "name": "Hedflow",
-                            "category": "press",
                             "title": "Pop Punk e House Music foram os destaque do 1º dia do GP Week Brasil 2023",
                             "article": "/2023/11/08/pop-punk-e-house-music-foram-os-destaque-do-1o-dia-do-gp-week-brasil-2023/"
                         },
                         {
                             "name": "Hedflow",
-                            "category": "press",
                             "title": "Hip Hop domina segundo dia do GP Week Festival 2023",
                             "article": "/2023/11/11/hip-hop-domina-segundo-dia-do-gp-week-festival-2023/"
                         }
@@ -453,7 +428,6 @@
                 "venue": "Tokio Marine Hall",
                 "date": "03/11/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music",
                     "article": "/portfolio_page/fotos-show-angra-tour-cycles-of-pain-03-11-tokio-marine-hall-sp/"
                 }
@@ -468,7 +442,6 @@
                 "venue": "Audio Club",
                 "date": "25/10/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Boomerang Music"
                 }
             }
@@ -482,7 +455,6 @@
                 "venue": "Allianz Parque",
                 "date": "21/10/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "DownStage"
                 }
             }
@@ -496,7 +468,6 @@
                 "venue": "Carioca Club",
                 "date": "15/10/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Marky Ramone's Blitzkrieg faz show mais curto, mas agrada público em São Paulo",
                     "article": "/2023/10/marky-ramone-sao-paulo-2023-resenha/"
@@ -511,7 +482,6 @@
                 "venue": "Cine Jóia",
                 "date": "24/09/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "DownStage"
                 }
             }
@@ -525,7 +495,6 @@
                 "venue": "Carioca Club",
                 "date": "27/08/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "DownStage"
                 }
             }
@@ -539,7 +508,6 @@
                 "venue": "Cine Jóia",
                 "date": "24/08/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "DownStage"
                 }
             }
@@ -552,7 +520,6 @@
                 "venue": "Espaço Unimed",
                 "date": "20/08/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Em noite nostálgica, Steve Hackett satisfaz público de SP ao reproduzir “Seconds Out”",
                     "article": "/2023/08/steve-hackett-show-sao-paulo-2023-resenha/"
@@ -567,7 +534,6 @@
                 "venue": "Jai Club",
                 "date": "18/06/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Sonoridade Underground",
                     "title": "Nile abala as estruturas da Jai Club com seu death metal poderoso em show sold out",
                     "article": "/2023/06/23/nile-abala-as-estruturas-da-jai-club-com-seu-death-metal-poderoso-em-show-sold-out/"
@@ -583,7 +549,6 @@
                 "venue": "Jai Club",
                 "date": "10/06/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Sonoridade Underground",
                     "title": "Passagem de Peter And The Test Tube Babies pelo Brasil é marcado por setlist repleto de clássicos e de animada apresentação",
                     "article": "/2023/06/23/passagem-de-peter-and-the-test-tube-babies-pelo-brasil-e-marcado-por-setlist-repleto-de-classicos-e-de-animada-apresentacao/"
@@ -599,7 +564,6 @@
                 "venue": "Fabrique Clube",
                 "date": "06/06/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Fear Factory mostra força de nova formação e empolga fãs em SP com set de clássicos",
                     "article": "/2023/06/fear-factory-show-sao-paulo-2023-resenha/"
@@ -615,7 +579,6 @@
                 "venue": "Fabrique Club",
                 "date": "31/05/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Repetente Records celebra 1 ano de existência em grande estilo",
                     "article": "/2023/06/repetente-records-aniversario-shows-resenha/"
@@ -631,7 +594,6 @@
                 "venue": "Parque Ibirapuera",
                 "date": "21/05/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "The War on Drugs encanta no C6 Fest em São Paulo mesmo com setlist enxuto",
                     "article": "/2023/05/c6-fest-sao-paulo-21-maio-2023-resenha/"
@@ -646,7 +608,6 @@
                 "venue": "Espaço Unimed",
                 "date": "06/05/2023",
                 "outlet": {
-                    "category": "press",
                     "name": "Igor Miranda",
                     "title": "Dado e Bonfá voltam a celebrar a Legião Urbana com turnê “As V Estações” em SP",
                     "article": "/2023/05/legiao-urbana-dado-bonfa-show-sao-paulo-2023-resenha/"
