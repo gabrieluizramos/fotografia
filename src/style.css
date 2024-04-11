@@ -283,6 +283,10 @@
     background: #ff3a1c;
 }
 
+.outlet.tonagrade {
+    background: #dd0000;
+}
+
 .outlet:hover{
     opacity: 0.8;
 }
