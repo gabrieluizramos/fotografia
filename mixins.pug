@@ -1,8 +1,8 @@
 mixin outlet(outlet, more)
-    - let base = locals.outlet[outlet.name] || locals.outlet[outlet.network] || '';
+    - let base = locals.outlet[outlet.name] || locals.social[outlet.social] || '';
     - const article = outlet.article;
     - const href = article ? `${base}${article}` : base
-    - const outletClass = outlet.social ? outlet.network : outlet.name.toLowerCase().replace(/\s/g, '');
+    - const outletClass = outlet.social ? outlet.social : outlet.name.toLowerCase().replace(/\s/g, '');
     - const classes = ['outlet', outletClass, more && 'more'].filter(c => c).join(' ');
     a(href=href  target="_blank" title=outlet.title class=classes) #{outlet.name}
 

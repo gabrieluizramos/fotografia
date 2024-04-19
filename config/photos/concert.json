@@ -1,6 +1,33 @@
 {
     "recent": [
         {
+            "title": "Royal Blood",
+            "highlighted": true,
+            "path": "images/concert/2-igor-miranda/12-royal-blood",
+            "count": 12,
+            "details": {
+                "venue": "Audio",
+                "date": "13/04/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "title": "Royal Blood faz show intenso e demonstra sinergia com público em SP",
+                    "article": "/2024/04/royal-blood-show-sao-paulo-2024-resenha/",
+                    "more": [
+                        {
+                            "social": "instagram",
+                            "name": "@royalblooduk",
+                            "article": "/p/C5wRKmMx5e_"
+                        },
+                        {
+                            "name": "Sonoridade Underground",
+                            "title": "Royal Blood - Uma noite memorável",
+                            "article": "/2024/04/16/royal-blood-uma-noite-memoravel/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Thursday",
             "path": "images/concert/3-sonoridade-underground/3-thursday",
             "count": 21,
@@ -132,20 +159,17 @@
                     "article": "/p/C4KhlF5uI5u/",
                     "more": [
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@bambam1a",
                             "article": "/p/C4MfedcP2xS/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@bambamxabyss",
                             "article": "/p/C4Mj4wNRdBN/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@bambamxabyss",
                             "article": "/p/C4Mj-ijRQJv/"
                         }
@@ -209,32 +233,27 @@
                     "name": "Dreamers Entertainment",
                     "more": [
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@thejimriley",
                             "article": "/p/C3iYC4MuBlw/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@zachjayjohnson",
                             "article": "/p/C3k1w3Juzk5/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@illgrip",
                             "article": "/p/C3lza-7Rp5q/?img_index=9"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@jonathanvigil",
                             "article": "/p/C3nmn5XLzC5/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@gigmusicoficial",
                             "article": "/p/C3lwTEAAl1L/"
                         }
@@ -266,26 +285,22 @@
                 "outlet": {
                     "more": [
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@underoathband",
                             "article": "/p/C20lI_ogI1k/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@wschamberlain",
                             "article": "/p/C20WBPEJpTu/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@chrisunderoath",
                             "article": "/p/C2qDvf8OIiQ/"
                         },
                         {
-                            "social": true,
-                            "network": "twitter",
+                            "social": "twitter",
                             "name": "@underoathband",
                             "article": "/UnderoathBand/status/1753185308139499753"
                         }
@@ -369,32 +384,27 @@
                     "article": "/2023/11/alter-bridge-show-sao-paulo-2023-resenha/",
                     "more": [
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@officialalterbridge",
                             "article": "/p/Czd_yuTOosA/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@officialmyleskennedy",
                             "article": "/p/CzeAM_QOpRu/"
                         },
                         {
-                            "social": true,
-                            "network": "instagram",
+                            "social": "instagram",
                             "name": "@flip_drums",
                             "article": "/p/CzeAWWFOGui/"
                         },
                         {
-                            "social": true,
-                            "network": "facebook",
+                            "social": "facebook",
                             "name": "@alterbridge",
                             "article": "/alterbridge/posts/pfbid0NNH5c5cUK8TbAtyfCnzjHiGppWUEvhuMwE5ryjqTgdy1tnYuxJkRodKqZca5KgTVl"
                         },
                         {
-                            "social": true,
-                            "network": "twitter",
+                            "social": "twitter",
                             "name": "@alterbridge",
                             "article": "/alterbridge/status/1723048714074226762"
                         }
