@@ -29,8 +29,11 @@ export default async () => {
     console.log('PUG: rendering template');
 
     const options = await getConfiguration();
-    const html = pug.renderFile('src/index.pug', options);
-    await writeFile('src/index.html', html);
+    const portuguese = pug.renderFile('src/index.pug', options);
+    await writeFile('src/index.html', portuguese);
+
+    const english = pug.renderFile('src/en.pug', options);
+    await writeFile('src/en.html', english);
 
     console.log('PUG: finished');
 }
