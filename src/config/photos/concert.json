@@ -1,6 +1,57 @@
 {
     "recent": [
         {
+            "title": "Summer Breeze",
+            "highlighted": true,
+            "path": "images/concert/8-whiplash/1-summer-breeze",
+            "count": 0,
+            "details": {
+                "artists": ["While She Sleeps", "Killswitch Engage", "Avatar", "Eclipse", "Carcass", "Torture Squad"],
+                "venue": "Memorial da América Latina",
+                "date": "28/04/2024",
+                "outlet": {
+                    "name": "Whiplash",
+                    "more": [
+                        {
+                            "social": "instagram",
+                            "name": "@aaranwss",
+                            "article": "/p/C6Ybr2-sQpS/"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Eclipse - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360589-torturesquad.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Torture Squad - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360588-torturesquad.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "While She Sleeps - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360587-whileshesleeps.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Avatar - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360585-avatar.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Carcass - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360586-carcass.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Killswitch Engage - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360584-killswitchengage.html"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Royal Blood",
             "highlighted": true,
             "path": "images/concert/2-igor-miranda/12-royal-blood",
