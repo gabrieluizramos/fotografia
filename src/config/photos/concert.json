@@ -1,6 +1,21 @@
 {
     "recent": [
         {
+            "title": "Accept",
+            "path": "images/concert/2-igor-miranda/13-accept",
+            "count": 0,
+            "details": {
+                "artists": ["Amalgama", "Accept"],
+                "venue": "Carioca Club",
+                "date": "01/05/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "title": "",
+                    "article": ""
+                }
+            }
+        },
+        {
             "title": "Summer Breeze",
             "highlighted": true,
             "path": "images/concert/8-whiplash/1-summer-breeze",
@@ -46,6 +61,11 @@
                             "name": "Whiplash",
                             "title": "Killswitch Engage - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
                             "article": "/materias/imagens/360584-killswitchengage.html"
+                        },
+                        {
+                            "name": "Igor Miranda",
+                            "title": "While She Sleeps atrai nova geração e conquista headbangers antigos no Summer Breeze",
+                            "article": "/2024/04/while-she-sleeps-show-summer-breeze-brasil-2024-resenha/"
                         }
                     ]
                 }
