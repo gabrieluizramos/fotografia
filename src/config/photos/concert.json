@@ -3,7 +3,7 @@
         {
             "title": "Accept",
             "path": "images/concert/2-igor-miranda/13-accept",
-            "count": 0,
+            "count": 21,
             "details": {
                 "artists": ["Amalgama", "Accept"],
                 "venue": "Carioca Club",
@@ -19,7 +19,7 @@
             "title": "Summer Breeze",
             "highlighted": true,
             "path": "images/concert/8-whiplash/1-summer-breeze",
-            "count": 0,
+            "count": 73,
             "details": {
                 "artists": ["While She Sleeps", "Killswitch Engage", "Avatar", "Eclipse", "Carcass", "Torture Squad"],
                 "venue": "Memorial da América Latina",
@@ -205,7 +205,9 @@
                     "article": "/portfolio_page/resenha-e-fotos-show-living-the-dream-the-hits-tour-2024-tarja-e-marko-hietala-08-03/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Gavin James",
             "path": "images/concert/5-boomerang-music/7-gavin-james",
@@ -261,9 +263,7 @@
                     "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Rotting Christ",
             "path": "images/concert/2-igor-miranda/11-rotting-christ",
