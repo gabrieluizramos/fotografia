@@ -1,6 +1,34 @@
 {
     "recent": [
         {
+            "title": "Blessthefall",
+            "highlighted": true,
+            "path": "images/concert/3-sonoridade-underground/4-blessthefall",
+            "count": 25,
+            "details": {
+                "artists": ["Broad and Sharp", "December", "Blessthefall"],
+                "venue": "Carioca Club",
+                "date": "19/05/2024",
+                "outlet": {
+                    "name": "Sonoridade Underground",
+                    "title": "Blessthefall - Show em São Paulo reune fãs devotos e apaixonados",
+                    "article": "/2024/05/21/blessthefall-show-em-sao-paulo-reune-fas-devotos-e-apaixonados/"
+                }
+            }
+        },
+        {
+            "title": "Village People",
+            "path": "images/concert/5-boomerang-music/9-village-people",
+            "count": 14,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "17/05/2024",
+                "outlet": {
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
             "title": "Accept",
             "path": "images/concert/2-igor-miranda/13-accept",
             "count": 21,
