@@ -1,0 +1,154 @@
+//- Mixins ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+include mixins.pug
+
+//- Page ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="description" content="Concert photography, lifestyle, drone, nature")
+        meta(name="og:description" content="Concert photography, lifestyle, drone, nature")
+        meta(name="twitter:description" content="Concert photography, lifestyle, drone, nature")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="icon" href="https://gabrieluizramos.com.br/favicon-32x32.png")
+        link(rel="stylesheet" href="https://gabrieluizramos.com.br/theme/main.css")
+        link(rel="stylesheet" href="./style.css")
+        script !{" "}
+        title Gabriel Ramos | Concert Photographer
+
+    body.body
+        .sticky.wrapper
+                a.language(href="/" title="pt") 🇧🇷
+
+        .loader(data-loading)
+            figure.crow
+                img(src="images/crow.thumb.webp")
+
+        header.header
+            h1.title Gabriel / Ramos
+            h2.subtitle Photography
+            ul.menu
+                li.menu-item(data-title="contact")
+                    a.menu-link(href="#contact" title="contact")
+                        img.menu-image(src='icons/envelope.svg')
+                each item in locals.menu
+                    li.menu-item(data-title=item.title)
+                        a.menu-link(href=item.href target="_blank" title=item.title)
+                            - const src = `icons/${item.title}.svg`
+                            img.menu-image(src=src)
+        
+        div.content
+
+            section.section 
+                .wrapper
+                    h3.title.greeting Hi 😀
+                    p.text.greeting I'm <b>Gabriel</b>.
+
+                    .about 
+                        .texts
+                            p.text I fell in love for photography around 2013, influenced by a friend. Since then, I've been dedicating my time to perfecting and improve not only my photographic vision, but the whole stetic around my work and also the way I capture moment through my lenses.
+
+                            p.text From every niche we can imagine, concert photography always had my heart. Despite the fact I've dedicated myself to the music for a long time, being able to capture unique moments while artists are performing on stage was always something challenging and extremely motivating.
+
+                            p.text To feel the energy that echoes in the delivery of an artists to its audience on stage and sublimating these moments in something concrete, palpable and visual is a unique experience that's even hard to describe.
+
+                            p.text That's the thing that fascinates me: combining in a single artifact two artistic expressions, the art of photography and the art of music. In this journey on the stages I've had the honor to work and had my photos used by many press outlets, bands and producers. Hope you'll enjoy my work!
+
+                        figure.avatar
+                            img(src="https://github.com/gabrieluizramos.png" alt="foto Gabriel Ramos" loading="lazy")
+
+            section.section.music
+                .wrapper
+                    h3.title 🎙 Shows
+                     -
+                        const concerts = Object.entries(concert).reduce((concerts, [name, values]) => {
+                            const rest = values.filter(c => !c.highlighted);
+                            const currentHighlights = values.filter(c => c.highlighted);
+                            let highlights = concerts.highlights ? [...concerts.highlights, ...currentHighlights] : currentHighlights;
+                            let count = concerts.count || 0;
+                            count += currentHighlights.length + rest.length
+
+                            return {
+                                ...concerts,
+                                [name]: rest,
+                                highlights,
+                                count,
+                            }
+                        }, {})
+                    h4.subtitle.subdivision
+                        span Highlights ⭐️
+                    +gallery(concerts.highlights)
+
+                    h4.subtitle.subdivision
+                        span News 🆕
+                    +gallery(concerts.recent, true)
+
+                    +archive(concerts.archived)
+            section.section
+                .wrapper 
+                    h3.title A bit more of history
+
+                    p.text Since it started out as a hobby, for many years I've shot with smartphones.
+
+                    p.text Although it might seem a bit limited for anyone reading it for the first time, we all know that who takes a good photo is who's behind the lens, not the equipment. After so long photographing with fixed lenses, I turned out to notice everiday situations in a different perspective, and that's how one of my simplest photos, taken with a phone, used to have my biggest view/download rate on Unsplash (<a href="https://unsplash.com/photos/MqnJttIdHGQ" target="_blank">photo</a>), with almost 3M views today.
+
+                    p.text With that, I have a little challenge for you. Can you find out which photos in my portfolio were done with a smartphone? Let me know!
+
+            section.section.world
+                .wrapper
+                    h3.title 🌎 Everiday life & Travel
+                    +gallery(locals.world)
+
+            section.section
+                .wrapper 
+                    h3.title Beyond the usual
+                    
+                    p.text Although photographing concerts is what really moves me, capturing everyday situations is something easy to do on a daily basis. I always bring my camera when I'm out for a walk on somewhere new.
+
+                    p.text Photographing by passion allows me to try new different niches, including random ones like game photography (you can see it in my <a href="https://www.flickr.com/photos/gabrieluizramos/" target="_blank">Flickr</a>), nature and animals.
+
+            section.section.nature
+                .wrapper
+                    h3.title 🌱 Nature & Animals
+                    +gallery(locals.nature)
+
+            section.section
+                .wrapper
+                    h3.title Lifestyle
+
+                    p.text And of course, like many other photographers, there might be some ocasions to shot products here and there. From scented candles, to workout accessories or any other product I've bought that I'd like to register.
+                    
+                    p.text And around sport, I've also had the opportunity to capture some athletes during CrossFit workouts.
+
+            section.section.lifestyle
+                .wrapper
+                    h3.title 🏋🏼 Sports & Products
+                    +gallery(locals.lifestyle)
+
+            section.section#contact
+                .wrapper
+                    h3.title Contact me & Download
+                    
+                    p.text In case you wanna chat, just shoot me an email on <a href="mailto:gabriel.luiz.ramos@gmail.com">gabriel.luiz.ramos@gmail.com</a>. You can also ping me online in any of my social media, like my Instagram <a href="https://www.instagram.com/gabrieluizramos/" target="_blank">@gabrieluizramos</a>.
+                    
+                    p.text Oh! And my username in most social medias around is always the same. Since I also work at tech, please don't be surprised in case you see any related content around the internet.
+                    
+                    p.text In case you wanna use any photo of mine, you can do that by downloading them on my <a href="https://unsplash.com/@gabrieluizramos" target="_blank">Unsplash profile</a> or on <a href="https://www.pexels.com/@gabrieluizramos/" target="_blank">Pexels</a> and download some of my high-quality shots completely. I'll be happy if you end up giving me the credits and even happier if you end up using my photo to compose a work of yours and show me the result!
+                    
+                    p.text In case you want any photo that's not on this platforms or in a specific format, just shoot me a message. Will be a pleasure to send you these files (in case I'm allowed to, of course).
+                    
+                    p.text Feel free to ping me if you need anything. See you around!
+
+        footer.footer
+            a(href="https://gabrieluizramos.com.br/" target="_blank") @gabrieluizramos
+
+
+        dialog.modal#modal
+            .container
+                figure.figure.polaroid(data-alt="Loading...")
+                    img.img
+                    button.close &times;
+
+        script(src="./script.js")
