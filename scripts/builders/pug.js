@@ -32,7 +32,7 @@ export default async () => {
     const portuguese = pug.renderFile('src/index.pug', options);
     await writeFile('src/index.html', portuguese);
 
-    const english = pug.renderFile('src/en.pug', options);
+    const english = pug.renderFile('src/en.pug', {...options, translate: true});
     await writeFile('src/en.html', english);
 
     console.log('PUG: finished');

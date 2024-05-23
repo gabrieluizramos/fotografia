@@ -1,3 +1,5 @@
+- const translate = (text) => locals.translate && locals.translations[text] || text;
+
 mixin outlet(outlet, more)
     - let base = locals.outlet[outlet.name] || locals.social[outlet.social] || '';
     - const article = outlet.article;
@@ -11,7 +13,7 @@ mixin details(category)
         .details
             if category.details.artists
                 dl.artists
-                    dt.artist.detail Artistas: !{" "}
+                    dt.artist.detail #{translate("Artistas:")} !{" "}
                     each artist in category.details.artists
                         dd.artist.info #{artist}
             if category.details.venue && category.details.date
@@ -22,7 +24,7 @@ mixin details(category)
             if category.details.outlet
                 if category.details.outlet.name
                     p
-                        span.detail Fotos para: !{" "}
+                        span.detail #{translate("Fotos para:")} !{" "}
                         +outlet(category.details.outlet)
                 if category.details.outlet.more
                     p
@@ -33,7 +35,7 @@ mixin details(category)
 mixin photos(category)
     summary.expander(data-emoji=category.emoji)
         h4.subtitle
-            span #{category.title}
+            span #{translate(category.title)}
     +details(category)
     .gallery
         ul.scrollable
