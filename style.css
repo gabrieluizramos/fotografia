@@ -4,6 +4,7 @@
     font-size: var(--font-size-big);
     display: flex;
     flex-direction: row-reverse;
+    z-index: 0;
 }
 .sticky.wrapper {
     padding: 0;
