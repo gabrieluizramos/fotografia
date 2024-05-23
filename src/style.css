@@ -147,6 +147,10 @@
     content: '';
 }
 
+.accordion.archive > .expander .subtitle .check:before {
+    content: "Ver ";
+}
+
 .accordion.archive > .expander .subtitle .check:after {
     content: 'mais 👈';
 }
@@ -691,4 +695,19 @@
         display: flex;
         justify-content: center;
     }
+}
+
+
+/* EN */
+
+html[lang="en"] .accordion.archive > .expander .subtitle .check:before {
+    content: "";
+}
+
+html[lang="en"] .accordion.archive > .expander .subtitle .check:after {
+    content: 'More 👈';
+}
+
+html[lang="en"] .accordion.archive[open] > .expander .subtitle .check:after {
+    content: 'More 👇';
 }
