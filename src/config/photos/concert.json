@@ -1,6 +1,106 @@
 {
     "recent": [
         {
+            "title": "Blessthefall",
+            "highlighted": true,
+            "path": "images/concert/3-sonoridade-underground/4-blessthefall",
+            "count": 25,
+            "details": {
+                "artists": ["Broad and Sharp", "December", "Blessthefall"],
+                "venue": "Carioca Club",
+                "date": "19/05/2024",
+                "outlet": {
+                    "name": "Sonoridade Underground",
+                    "title": "Blessthefall - Show em São Paulo reune fãs devotos e apaixonados",
+                    "article": "/2024/05/21/blessthefall-show-em-sao-paulo-reune-fas-devotos-e-apaixonados/"
+                }
+            }
+        },
+        {
+            "title": "Village People",
+            "path": "images/concert/5-boomerang-music/9-village-people",
+            "count": 14,
+            "details": {
+                "venue": "Tokio Marine Hall",
+                "date": "17/05/2024",
+                "outlet": {
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
+            "title": "Accept",
+            "path": "images/concert/2-igor-miranda/13-accept",
+            "count": 21,
+            "details": {
+                "artists": ["Amalgama", "Accept"],
+                "venue": "Carioca Club",
+                "date": "01/05/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "title": "Accept passa ileso por teste de fogo em estreia de turnê mundial em São Paulo",
+                    "article": "/2024/05/accept-show-sao-paulo-2024-resenha/"
+                }
+            }
+        },
+        {
+            "title": "Summer Breeze",
+            "highlighted": true,
+            "path": "images/concert/8-whiplash/1-summer-breeze",
+            "count": 73,
+            "details": {
+                "artists": ["While She Sleeps", "Killswitch Engage", "Avatar", "Eclipse", "Carcass", "Torture Squad"],
+                "venue": "Memorial da América Latina",
+                "date": "28/04/2024",
+                "outlet": {
+                    "name": "Whiplash",
+                    "article": "/autores/gabrielramos.html",
+                    "more": [
+                        {
+                            "social": "instagram",
+                            "name": "@aaranwss",
+                            "article": "/p/C6Ybr2-sQpS/"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Eclipse - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360589-torturesquad.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Torture Squad - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360588-torturesquad.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "While She Sleeps - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360587-whileshesleeps.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Avatar - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360585-avatar.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Carcass - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360586-carcass.html"
+                        },
+                        {
+                            "name": "Whiplash",
+                            "title": "Killswitch Engage - Galeria de fotos do Summer Breeze Brasil - por Gabriel Ramos",
+                            "article": "/materias/imagens/360584-killswitchengage.html"
+                        },
+                        {
+                            "name": "Igor Miranda",
+                            "title": "While She Sleeps atrai nova geração e conquista headbangers antigos no Summer Breeze",
+                            "article": "/2024/04/while-she-sleeps-show-summer-breeze-brasil-2024-resenha/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Royal Blood",
             "highlighted": true,
             "path": "images/concert/2-igor-miranda/12-royal-blood",
@@ -133,7 +233,9 @@
                     "article": "/portfolio_page/resenha-e-fotos-show-living-the-dream-the-hits-tour-2024-tarja-e-marko-hietala-08-03/"
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Gavin James",
             "path": "images/concert/5-boomerang-music/7-gavin-james",
@@ -189,9 +291,7 @@
                     "article": "/portfolio_page/fotos-show-cantor-tiago-iorc-01-03-tokio-marine-hall-sp/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Rotting Christ",
             "path": "images/concert/2-igor-miranda/11-rotting-christ",
