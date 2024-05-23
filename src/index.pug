@@ -19,7 +19,10 @@ html(lang="pt-BR")
         title Fotografia | Gabriel Ramos
 
     body.body
-        div.loader(data-loading)
+        .sticky.wrapper
+                a.language(href="/en" title="en") 🇺🇸
+
+        .loader(data-loading)
             figure.crow
                 img(src="images/crow.thumb.webp")
 
@@ -132,7 +135,7 @@ html(lang="pt-BR")
                 .wrapper 
                     h3.title Além do comum
                     
-                    p.text Embora fotografar shows ao vivo seja o que realmente me atrai, e registrar situações cotidinas seja mais simples de encaixar no meu dia-a-dia. Sempre levo minha câmera quando vou dar uma volta por algum lugar novo.
+                    p.text Embora fotografar shows ao vivo seja o que realmente me atrai, registrar situações cotidinas é mais simples de encaixar no meu dia-a-dia. Sempre levo minha câmera quando vou dar uma volta por algum lugar novo.
 
                     p.text Fotografar por paixão me permite experimentar muitos segmentos diferentes, incluindo até alguns variados como fotografia de jogos (como você pode ver no meu <a href="https://www.flickr.com/photos/gabrieluizramos/" target="_blank">Flickr</a>), natureza e animais selvagens e domésticos.
 
@@ -140,7 +143,7 @@ html(lang="pt-BR")
 
             section.section.nature
                 .wrapper
-                    h3.title 🌱 Natureza & Vida Selvagem
+                    h3.title 🌱 Natureza & Animais
                     +gallery(locals.nature)
 
             section.section
