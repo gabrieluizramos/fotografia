@@ -28,7 +28,7 @@ mixin details(category)
                         +outlet(category.details.outlet)
                 if category.details.outlet.more
                     p
-                        span.detail Veja mais em: !{" "}
+                        span.detail #{translate("Veja mais em:")} !{" "}
                             each extra in category.details.outlet.more
                                 +outlet(extra, true)
 
