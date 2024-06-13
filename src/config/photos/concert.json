@@ -1,6 +1,20 @@
 {
     "recent": [
         {
+            "title": "Conception",
+            "path": "images/concert/2-igor-miranda/14-conception",
+            "count": 13,
+            "details": {
+                "venue": "Carioca Club",
+                "date": "09/06/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "article": "/2024/06/conception-show-sao-paulo-2024-resenha/",
+                    "title": "Conception faz grande show em SP para plateia esvaziada, mas barulhenta"
+                }
+            }
+        },
+        {
             "title": "Luísa Sonza",
             "path": "images/concert/5-boomerang-music/10-luisa-sonza",
             "count": 25,
@@ -213,7 +227,9 @@
                     ]
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Radwimps",
             "path": "images/concert/6-dreamers-entertainment/2-radwimps",
@@ -247,9 +263,7 @@
                     "article": "/portfolio_page/resenha-e-fotos-show-living-the-dream-the-hits-tour-2024-tarja-e-marko-hietala-08-03/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Gavin James",
             "path": "images/concert/5-boomerang-music/7-gavin-james",
