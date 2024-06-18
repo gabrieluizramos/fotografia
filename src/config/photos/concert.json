@@ -1,6 +1,24 @@
 {
     "recent": [
         {
+            "title": "City and Colour",
+            "path": "images/concert/8-whiplash/2-city-and-colour",
+            "count": 19,
+            "details": {
+                "venue": "Vivo Rio",
+                "date": "14/06/2024",
+                "outlet": {
+                    "name": "Whiplash",
+                    "more": [
+                        {
+                            "name": "OnStage",
+                            "article": "/website/city-and-colour-vivo-rio-rio-de-janeiro-14-06-24/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Conception",
             "path": "images/concert/2-igor-miranda/14-conception",
             "count": 13,
