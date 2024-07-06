@@ -1,6 +1,63 @@
 {
     "recent": [
         {
+            "title": "Turá",
+            "path": "images/concert/5-boomerang-music/12-tura",
+            "count": 46,
+            "details": {
+                "artists": ["Chico César e Zeca Baleiro", "Banda Uó", "Nação Zumbi", "Fresno e Pabllo Vittar", "Chitãozinho e Xororó", "Adriana Calcanhotto e Rubel", "Armandinho", "Alcione", "Djavan"],
+                "venue": "Parque Ibirapuera",
+                "date": "29 e 30/06/2024",
+                "outlet": {
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
+            "title": "Best of Blues and Rock",
+            "path": "images/concert/5-boomerang-music/11-best-of-blues-and-rock",
+            "count": 23,
+            "details": {
+                "artists": ["Di Ferrero", "CPM 22", "Eric Gales", "Joe Bonamassa", "Zakk Sabbath"],
+                "venue": "Parque Ibirapuera",
+                "date": "22/06/2024",
+                "outlet": {
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-parte-i-best-of-blues-and-rock-22-06-parque-ibirapuera-sp/",
+                    "more": [
+                        {
+                            "name": "Boomerang Music",
+                            "article": "/portfolio_p    age/fotos-parte-ii-best-of-blues-and-rock-zakk-sabbath-22-06-parque-do-ibirapuera-sp/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Hell On Earth Tour",
+            "path": "images/concert/6-dreamers-entertainment/5-hell-on-earth-tour",
+            "count": 15,
+            "details": {
+                "artists": ["Havok", "Midnight", "Discharge"],
+                "venue": "Carioca Club",
+                "date": "21/06/2024",
+                "outlet": {
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C8p6B1YuvAO/",
+                    "more": [
+                        {
+                            "name": "Dreamers Entertainment",
+                            "article": "/p/C8qU6rpOR9B/"
+                        },
+                        {
+                            "name": "Dreamers Entertainment",
+                            "article": "/p/C8shyT2u9xG/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "City and Colour",
             "path": "images/concert/8-whiplash/2-city-and-colour",
             "count": 19,
@@ -17,7 +74,9 @@
                     ]
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Conception",
             "path": "images/concert/2-igor-miranda/14-conception",
@@ -190,7 +249,6 @@
         },
         {
             "title": "Russian Circles",
-            "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/4-russian-circles",
             "count": 24,
             "details": {
@@ -245,9 +303,7 @@
                     ]
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Radwimps",
             "path": "images/concert/6-dreamers-entertainment/2-radwimps",
