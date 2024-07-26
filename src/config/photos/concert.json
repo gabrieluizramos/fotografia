@@ -1,6 +1,18 @@
 {
     "recent": [
         {
+            "title": "Tatiana Eva-Marie",
+            "path": "images/concert/5-boomerang-music/13-tatiana-eva-marie",
+            "count": 17,
+            "details": {
+                "venue": "Blue Note São Paulo",
+                "date": "25/07/2024",
+                "outlet": {
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
             "title": "Turá",
             "path": "images/concert/5-boomerang-music/12-tura",
             "count": 46,
