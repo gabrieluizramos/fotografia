@@ -1,6 +1,58 @@
 {
     "recent": [
         {
+            "title": "Christone \"Kingfish\" Ingram",
+            "path": "images/concert/5-boomerang-music/15-kingfish",
+            "count": 18,
+            "details": {
+                "venue": "Teatro Bradesco",
+                "date": "12/09/2024",
+                "outlet": {
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-christone-kingfish-ingram-12-09-teatro-bradesco-sp/"
+                }
+            }
+        },
+        {
+            "title": "Banda de Casinha",
+            "path": "images/concert/4-downstage/6-banda-de-casinha",
+            "count": 8,
+            "details": {
+                "artists": ["Nico", "Campolargo", "Giz.", "Maré Tardia", "Homeninvisivel", "Polara"],
+                "venue": "AlgoHits",
+                "date": "17/08/2024",
+                "outlet": {
+                    "name": "DownStage"
+                }
+            }
+        },
+        {
+            "title": "Moda de Rock",
+            "path": "images/concert/9-onstage/1-moda-de-rock",
+            "count": 7,
+            "details": {
+                "venue": "Blue Note SP",
+                "date": "08/08/2024",
+                "outlet": {
+                    "name": "OnStage",
+                    "article": "/website/moda-de-rock-blue-note-08-08-24/"
+                }
+            }
+        },
+        {
+            "title": "Stanley Jordan",
+            "path": "images/concert/5-boomerang-music/14-stanley-jordan",
+            "count": 11,
+            "details": {
+                "venue": "Blue Note São Paulo",
+                "date": "31/07/2024",
+                "outlet": {
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-stanley-jordan-31-07-blue-note-sp/"
+                }
+            }
+        },
+        {
             "title": "Tatiana Eva-Marie",
             "path": "images/concert/5-boomerang-music/13-tatiana-eva-marie",
             "count": 17,
@@ -8,10 +60,38 @@
                 "venue": "Blue Note São Paulo",
                 "date": "25/07/2024",
                 "outlet": {
-                    "name": "Boomerang Music"
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-tatiana-eva-marie-25-07-blue-note-sp/"
                 }
             }
         },
+        {
+            "title": "Clutch",
+            "path": "images/concert/6-dreamers-entertainment/6-clutch",
+            "count": 9,
+            "details": {
+                "venue": "Fabrique Club",
+                "date": "18/07/2024",
+                "outlet": {
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/C-D-O7kuG5E/",
+                    "more": [
+                        {
+                            "social": "instagram",
+                            "name": "@clutchofficial",
+                            "article": "/p/C9m8OvHsfas/"
+                        },
+                        {
+                            "social": "instagram",
+                            "name": "@clutchofficial",
+                            "article": "/p/C9n64P3MlJl/"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "archived": [
         {
             "title": "Turá",
             "path": "images/concert/5-boomerang-music/12-tura",
@@ -86,9 +166,7 @@
                     ]
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Conception",
             "path": "images/concert/2-igor-miranda/14-conception",
