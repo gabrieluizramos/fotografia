@@ -22,6 +22,20 @@
             }
         },
         {
+            "title": "Eric Clapton",
+            "path": "images/concert/2-igor-miranda/16-eric-clapton",
+            "count": 5,
+            "details": {
+                "artists": ["Gary Clark Jr.", "Eric Clapton"],
+                "venue": "Vibra SP",
+                "date": "28/09/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "article": "/2024/09/eric-clapton-show-sao-paulo-2024-resenha-vibra/"
+                }
+            }
+        },
+        {
             "title": "Escape The Fate",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/7-escape-the-fate",
