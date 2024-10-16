@@ -77,19 +77,14 @@
         },
         {
             "title": "Ira! Folk",
-            "path": "images/concert/10-opus/1-ira",
+            "path": "images/concert/5-boomerang-music/16-ira",
             "count": 15,
             "details": {
                 "venue": "Teatro Bradesco",
                 "date": "13/09/2024",
                 "outlet": {
-                    "name": "Opus Entretenimento",
-                    "more": [
-                        {
-                            "name": "Boomerang Music",
-                            "article": "/portfolio_page/fotos-show-ira-folk-14-09-teatro-bradesco-sp/"
-                        }
-                    ]
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-ira-folk-14-09-teatro-bradesco-sp/"
                 }
             }
         },
