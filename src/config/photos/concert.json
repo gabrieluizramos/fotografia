@@ -1,6 +1,18 @@
 {
     "recent": [
         {
+            "title": "Restart",
+            "path": "images/concert/5-boomerang-music/17-restart",
+            "count": 10,
+            "details": {
+                "venue": "Espaço Unimed",
+                "date": "26/10/2024",
+                "outlet": {
+                    "name": "Boomerang Music"
+                }
+            }
+        },
+        {
             "title": "We Missed Ourselves Fest",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/8-we-missed-ourselves",
