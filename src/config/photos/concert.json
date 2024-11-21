@@ -1,6 +1,72 @@
 {
     "recent": [
         {
+            "title": "Chelsea Grin",
+            "path": "images/concert/6-dreamers-entertainment/9-chelsea-grin",
+            "count": 10,
+            "details": {
+                "venue": "Hangar 110",
+                "date": "13/11/2024",
+                "outlet": {
+                    "name": "Dreamers Entertainment",
+                    "more": [
+                        {
+                            "social": "instagram",
+                            "name": "@chelseagrinofficial",
+                            "article": "/p/DCZktApSGu6/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Ludmilla (Numanice)",
+            "path": "images/concert/5-boomerang-music/18-numanice",
+            "count": 7,
+            "details": {
+                "venue": "Centro Esportivo Tietê",
+                "date": "10/11/2024",
+                "outlet": {
+                    "name": "Boomerang Music",
+                    "article": "/portfolio_page/fotos-show-numanice-com-ludmilla-10-11-centro-esportivo-tiete-sp/"
+                }
+            }
+
+        },
+        {
+            "title": "Keane",
+            "path": "images/concert/3-sonoridade-underground/6-keane",
+            "count": 14,
+            "details": {
+                "venue": "Espaço Unimed",
+                "date": "09/11/2024",
+                "outlet": {
+                    "name": "Sonoridade Underground",
+                    "article": "/2024/11/10/keane-desfila-sucessos-com-show-irretocavel-na-capital-paulista/",
+                    "more": [
+                        {
+                            "name": "Boomerang Music",
+                            "article": "/portfolio_page/resenha-e-fotos-show-banda-keane/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "title": "Static-X",
+            "path": "images/concert/3-sonoridade-underground/5-static-x",
+            "count": 25,
+            "details": {
+                "artists": ["Dope", "Static-X"],
+                "venue": "Terra SP",
+                "date": "07/11/2024",
+                "outlet": {
+                    "name": "Sonoridade Underground",
+                    "article": "/2024/11/09/em-sua-estreia-no-brasil-dope-e-static-x-celebram-o-nu-metal-com-show-explosivo-e-festivo/"
+                }
+            }
+        },
+        {
             "title": "Restart",
             "path": "images/concert/5-boomerang-music/17-restart",
             "count": 10,
@@ -18,7 +84,7 @@
             "path": "images/concert/6-dreamers-entertainment/8-we-missed-ourselves",
             "count": 23,
             "details": {
-                "artists": ["Axty", "Outline in Color", "Blessthefall", "Fit For a King", "Hawthorne Heights", "Escape The Fate", "Thusday", "Killswitch Engage", "Falling in Reverse", "Alesana"],
+                "artists": ["Axty", "Outline in Color", "Blessthefall", "Fit For a King", "Hawthorne Heights", "Escape The Fate", "Thursday", "Killswitch Engage", "Falling in Reverse", "Alesana"],
                 "venue": "Velódromo Olímpico Agustín Melgar",
                 "date": "05/10/2024",
                 "outlet": {
