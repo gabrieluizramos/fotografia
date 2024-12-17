@@ -84,7 +84,9 @@
                     ]
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Ludmilla (Numanice)",
             "path": "images/concert/5-boomerang-music/18-numanice",
@@ -131,9 +133,7 @@
                     "article": "/2024/11/09/em-sua-estreia-no-brasil-dope-e-static-x-celebram-o-nu-metal-com-show-explosivo-e-festivo/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Restart",
             "path": "images/concert/5-boomerang-music/17-restart",
