@@ -1,6 +1,71 @@
 {
     "recent": [
         {
+            "title": "Tokio Hotel",
+            "path": "images/concert/6-dreamers-entertainment/11-tokio-hotel",
+            "count": 11,
+            "details": {
+                "venue": "Vibra SP",
+                "date": "12/12/2024",
+                "outlet": {
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/DDf_iXkNGOu/"
+                }
+            }
+        },
+        {
+            "title": "Thy Art Is Murder",
+            "higlighted": true,
+            "path": "images/concert/6-dreamers-entertainment/10-thy-art-is-murder",
+            "count": 9,
+            "details": {
+                "venue": "Hangar 110",
+                "date": "08/12/2024",
+                "outlet": {
+                    "name": "Dreamers Entertainment",
+                    "article": "/p/DDV56rutolR/"
+                }
+            }
+        },
+        {
+            "title": "The White Buffalo",
+            "path": "images/concert/3-sonoridade-underground/7-the-white-buffalo",
+            "count": 9,
+            "details": {
+                "venue": "Terra SP",
+                "date": "06/12/2024",
+                "outlet": {
+                    "name": "Sonoridade Underground",
+                    "article": "/2024/12/12/white-buffalo-encanta-com-seu-folk-rock-em-show-sold-out-em-sao-paulo/"
+                }
+            }
+        },
+        {
+            "title": "Bring Me The Horizon",
+            "highlighted": true,
+            "path": "images/concert/2-igor-miranda/17-bring-me-the-horizon",
+            "count": 26,
+            "details": {
+                "artists": ["The Plot In You", "Spiritbox", "Motionless In White", "Bring Me The Horizon"],
+                "venue": "Allianz Parque",
+                "date": "30/11/2024",
+                "outlet": {
+                    "name": "Igor Miranda",
+                    "article": "/2024/12/bring-me-the-horizon-motionless-spiritbox-plot-show-sao-paulo-2024-resenha/",
+                    "more": [
+                        {
+                            "name": "Igor Miranda",
+                            "article": "/2024/12/spiritbox-show-sao-paulo-2024-resenha/"
+                        },
+                        {
+                            "name": "Igor Miranda",
+                            "article": "/2024/12/bring-me-the-horizon-show-sao-paulo-2024-resenha/"
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "title": "Chelsea Grin",
             "highlighted": true,
             "path": "images/concert/6-dreamers-entertainment/9-chelsea-grin",
@@ -19,7 +84,9 @@
                     ]
                 }
             }
-        },
+        }
+    ],
+    "archived": [
         {
             "title": "Ludmilla (Numanice)",
             "path": "images/concert/5-boomerang-music/18-numanice",
@@ -66,9 +133,7 @@
                     "article": "/2024/11/09/em-sua-estreia-no-brasil-dope-e-static-x-celebram-o-nu-metal-com-show-explosivo-e-festivo/"
                 }
             }
-        }
-    ],
-    "archived": [
+        },
         {
             "title": "Restart",
             "path": "images/concert/5-boomerang-music/17-restart",
@@ -325,6 +390,7 @@
                 "date": "14/06/2024",
                 "outlet": {
                     "name": "Whiplash",
+                    "article": "/materias/shows/361908-cityandcolour.html",
                     "more": [
                         {
                             "name": "OnStage",
