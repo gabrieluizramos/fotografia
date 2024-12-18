@@ -23,7 +23,13 @@
                 "date": "08/12/2024",
                 "outlet": {
                     "name": "Dreamers Entertainment",
-                    "article": "/p/DDV56rutolR/"
+                    "article": "/p/DDV56rutolR/",
+                    "more": [
+                        {
+                            "name": "Sonoridade Underground",
+                            "article": "/2024/12/12/thy-art-is-murder-revive-o-auge-do-deathcore-no-hangar-110/"
+                        }
+                    ]
                 }
             }
         },
